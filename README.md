@@ -1,5 +1,17 @@
-# summer project
-for 2019/2020 internship at mbi starting 25 November 2019
+### **summer project 2019/2020**
+2019/2020 internship at mbi
 
-25/11 - initial setup of matlab/eeglab (fixed version errors), read some more papers about eeg + attentional blindness
-26/11 - fixed git, hopefully starting some matlab/eeglab
+* epsilon machines on human eeg data from shafto and pitts attentional blindness eeg task
+* supervised by nao tsuchiya, angus leung, yota kawashima
+
+**week 1 25/11 - 29/11**
+
+* 25/11 - initial setup of matlab/eeglab, data, etc
+  + fixed version errors
+  + read some more papers about eeg + attentional blindness 
+
+* 26/11 - fixed git, initial matlab/eeglab exploration
+  + tracking progress so far in readme doc
+  + [eeglab tutorial](https://sccn.ucsd.edu/wiki/Main_Page)
+  + importing and exploring shafto data
+  + ![](images/shaftoeegimport.png)
