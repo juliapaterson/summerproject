@@ -13,5 +13,8 @@
 * 26/11 - fixed git, initial matlab/eeglab exploration
   + tracking progress so far in readme doc with [r markdown](https://rmarkdown.rstudio.com/authoring_basics.html)
   + [eeglab tutorial](https://sccn.ucsd.edu/wiki/Main_Page)
-  + importing and exploring shafto data
-  + ![](images/shaftoeegimport.png)
+  + exploring shafto eeg data (see images folder)
+  + re reference in eeglab (probably unneeded)
+  + export variables of interest to new file
+  + to do: filter vmrk file
+  
