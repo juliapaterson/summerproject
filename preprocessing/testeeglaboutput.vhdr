@@ -1,0 +1,121 @@
+Brain Vision Data Exchange Header File Version 1.0
+; Data created from the EEGLAB software
+
+[Common Infos]
+DataFile=test.dat
+MarkerFile=test.vmrk
+DataFormat=BINARY
+; Data orientation: VECTORIZED=ch1,pt1, ch1,pt2..., MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=VECTORIZED
+DataType=TIMEDOMAIN
+NumberOfChannels=96
+DataPoints=1830422
+; Sampling interval in microseconds if time domain (convert to Hertz:
+; 1000000 / SamplingInterval) or in Hertz if frequency domain:
+SamplingInterval=2000
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in microvolts>,<Future extensions..
+; Fields are delimited by commas, some fields might be omited (empty).
+; Commas in channel names are coded as "".
+Ch1=1,, 
+Ch2=2,, 
+Ch3=3,, 
+Ch4=4,, 
+Ch5=5,, 
+Ch6=6,, 
+Ch7=7,, 
+Ch8=8,, 
+Ch9=9,, 
+Ch10=10,, 
+Ch11=11,, 
+Ch12=12,, 
+Ch13=13,, 
+Ch14=14,, 
+Ch15=15,, 
+Ch16=16,, 
+Ch17=17,, 
+Ch18=18,, 
+Ch19=19,, 
+Ch20=20,, 
+Ch21=21,, 
+Ch22=22,, 
+Ch23=23,, 
+Ch24=24,, 
+Ch25=25,, 
+Ch26=26,, 
+Ch27=27,, 
+Ch28=28,, 
+Ch29=29,, 
+Ch30=30,, 
+Ch31=31,, 
+Ch32=32,, 
+Ch33=33,, 
+Ch34=34,, 
+Ch35=35,, 
+Ch36=36,, 
+Ch37=37,, 
+Ch38=38,, 
+Ch39=39,, 
+Ch40=40,, 
+Ch41=41,, 
+Ch42=42,, 
+Ch43=43,, 
+Ch44=44,, 
+Ch45=45,, 
+Ch46=46,, 
+Ch47=47,, 
+Ch48=48,, 
+Ch49=49,, 
+Ch50=50,, 
+Ch51=51,, 
+Ch52=52,, 
+Ch53=53,, 
+Ch54=54,, 
+Ch55=55,, 
+Ch56=56,, 
+Ch57=57,, 
+Ch58=58,, 
+Ch59=59,, 
+Ch60=60,, 
+Ch61=61,, 
+Ch62=62,, 
+Ch63=63,, 
+Ch64=64,, 
+Ch65=65,, 
+Ch66=66,, 
+Ch67=67,, 
+Ch68=68,, 
+Ch69=69,, 
+Ch70=70,, 
+Ch71=71,, 
+Ch72=72,, 
+Ch73=73,, 
+Ch74=74,, 
+Ch75=75,, 
+Ch76=76,, 
+Ch77=77,, 
+Ch78=78,, 
+Ch79=79,, 
+Ch80=80,, 
+Ch81=81,, 
+Ch82=82,, 
+Ch83=83,, 
+Ch84=84,, 
+Ch85=85,, 
+Ch86=86,, 
+Ch87=87,, 
+Ch88=88,, 
+Ch89=89,, 
+Ch90=90,, 
+Ch91=91,, 
+Ch92=92,, 
+Ch93=93,, 
+Ch94=94,, 
+Ch95=95,, 
+Ch96=96,, 
+

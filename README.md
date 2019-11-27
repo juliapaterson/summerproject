@@ -16,5 +16,9 @@
   + exploring shafto eeg data (see images folder)
   + re reference in eeglab (probably unneeded)
   + export variables of interest to new file
-  + to do: filter vmrk file
+  + to do: filter vmrk 
   
+* 27/11 - git explosion, vmrk filter
+  + fixed git push issue (files too large)
+  + explore vmrk filtering + old resources (drive and repo)
+  + to do: filter, investigate drive/old repo further

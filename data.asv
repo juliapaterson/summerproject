@@ -1,2 +1,0 @@
-%import shafto eeg data to eeglab
-%from array: eegdata = rand(32, 256*100);
