@@ -37,3 +37,6 @@ rsconnect/
 
 #ignore data which is too big
 data/
+
+#ignore large .mat files
+*.mat

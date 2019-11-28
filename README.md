@@ -22,3 +22,8 @@
   + fixed git push issue (files too large)
   + explore vmrk filtering + old resources (drive and repo)
   + to do: filter, investigate drive/old repo further
+  
+* 28/11
+  + explore evangeline's IIT code
+  + add gitignore for large .mat files
+  + to do: optimise?, check or filter channels and other workspace data, hopefully binarise and start to build epsilon machines
