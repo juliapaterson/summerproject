@@ -39,4 +39,4 @@ rsconnect/
 data/
 
 #ignore large .mat files
-*.mat
+preprocessing/*.mat

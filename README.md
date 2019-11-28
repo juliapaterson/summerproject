@@ -25,5 +25,5 @@
   
 * 28/11
   + explore evangeline's IIT code
-  + add gitignore for large .mat files
+  + add gitignore for large .mat files, back them up on google drive
   + to do: optimise?, check or filter channels and other workspace data, hopefully binarise and start to build epsilon machines
