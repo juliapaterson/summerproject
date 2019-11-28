@@ -40,3 +40,6 @@ data/
 
 #ignore large .mat files
 preprocessing/*.mat
+
+#ignore csm folder
+CSM/

@@ -167,3 +167,8 @@ for g = 1:noOfTrials(10)
 end
 %% Clear unneeded Variable from Workspace
 clear g; clear h; clear i; clear j; clear k; clear l;
+
+%Julia - save to file
+save('differentiated','samp11','samp12','samp21','samp22','samp31','samp32') %mat
+
+dlmwrite('differentiated11.txt','samp11',' ') %save channel 11 to txt with space delimiter

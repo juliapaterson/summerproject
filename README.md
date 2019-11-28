@@ -26,4 +26,6 @@
 * 28/11
   + explore evangeline's IIT code
   + add gitignore for large .mat files, back them up on google drive
-  + to do: optimise?, check or filter channels and other workspace data, hopefully binarise and start to build epsilon machines
+  + binarised and exported to txt files median data
+  + to do: differentiated txt files had strange values and were large - fix?
+  + to do: build epsilon machines for each channel/binarisation methods?, optimise?, check or filter channels and other workspace data
