@@ -29,3 +29,7 @@
   + binarised and exported to txt files median data
   + to do: differentiated txt files had strange values and were large - fix?
   + to do: build epsilon machines for each channel/binarisation methods?, optimise?, check or filter channels and other workspace data
+   
+* 29/11
+  + channel filtering for cssr
+  + to do: compare 11 and 12 (face vs random inattention blindness), between channels, lmax lenghts, channel locations, 

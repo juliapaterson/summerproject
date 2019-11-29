@@ -133,3 +133,8 @@ end
 
 %Julia - save to file
 save('median_split','samp11','samp12','samp21','samp22','samp31','samp32')
+
+%concat all rows together
+save('median_11','samp11');
+
+
