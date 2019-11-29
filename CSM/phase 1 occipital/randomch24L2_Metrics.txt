@@ -1,0 +1,2 @@
+Statistical Complexity: 1.509768
+Entropy Rate: 0.505892

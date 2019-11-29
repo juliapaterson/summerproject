@@ -1,0 +1,147 @@
+Initial State: 
+ 
+ State 0 
+ null
+ ______________________________________________________________________ 
+ 
+String: 0
+
+ String Distribution: 	  0.79 	 	  1.00 	 	
+
+ State Distributions: 	  0.48 	 	  1.00 	 	
+ 	 	 	 	 	 	
+State 	 	 P Values 	 	 Results 	 	 Match 
+0 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+
+State 0 
+null 
+
+State 1 
+0 
+
+______________________________________________________________________ 
+
+String: 1
+
+ String Distribution: 	  0.19 	 	  1.00 	 	
+
+ State Distributions: 	  0.48 	 	  1.00 	 	
+ 	 	 	 	 	 	  0.79 	 	  1.00 	 	
+ 	 	 	 	 	 	
+State 	 	 P Values 	 	 Results 	 	 Match 
+0 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+1 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+
+State 0 
+null 
+
+State 1 
+0 
+
+State 2 
+1 
+
+______________________________________________________________________ 
+
+String: 00
+
+ String Distribution: 	  0.78 	 	  1.00 	 	
+
+ State Distributions: 	  0.79 	 	  1.00 	 	
+ 	 	 	 	 	 	  0.19 	 	  1.00 	 	
+ 	 	 	 	 	 	
+State 	 	 P Values 	 	 Results 	 	 Match 
+0 	 	 	 0.0152 	 	 0 	 	 	 	 	Yes 
+1 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+
+State 0 
+0 
+00 
+
+State 1 
+1 
+
+______________________________________________________________________ 
+
+String: 10
+
+ String Distribution: 	  0.84 	 	  1.00 	 	
+
+ State Distributions: 	  0.79 	 	  1.00 	 	
+ 	 	 	 	 	 	  0.19 	 	  1.00 	 	
+ 	 	 	 	 	 	
+State 	 	 P Values 	 	 Results 	 	 Match 
+0 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+1 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+
+State 0 
+0 
+00 
+
+State 1 
+1 
+
+State 2 
+10 
+
+______________________________________________________________________ 
+
+String: 01
+
+ String Distribution: 	  0.15 	 	  1.00 	 	
+
+ State Distributions: 	  0.79 	 	  1.00 	 	
+ 	 	 	 	 	 	  0.19 	 	  1.00 	 	
+ 	 	 	 	 	 	  0.84 	 	  1.00 	 	
+ 	 	 	 	 	 	
+State 	 	 P Values 	 	 Results 	 	 Match 
+0 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+1 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+2 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+
+State 0 
+0 
+00 
+
+State 1 
+1 
+
+State 2 
+10 
+
+State 3 
+01 
+
+______________________________________________________________________ 
+
+String: 11
+
+ String Distribution: 	  0.20 	 	  1.00 	 	
+
+ State Distributions: 	  0.79 	 	  1.00 	 	
+ 	 	 	 	 	 	  0.19 	 	  1.00 	 	
+ 	 	 	 	 	 	  0.84 	 	  1.00 	 	
+ 	 	 	 	 	 	  0.15 	 	  1.00 	 	
+ 	 	 	 	 	 	
+State 	 	 P Values 	 	 Results 	 	 Match 
+0 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+1 	 	 	 0.0902 	 	 0 	 	 	 	 	Yes 
+2 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+3 	 	 	 0.0000 	 	 1 	 	 	 	 	No 
+
+State 0 
+0 
+00 
+
+State 1 
+1 
+11 
+
+State 2 
+10 
+
+State 3 
+01 
+
+______________________________________________________________________ 
+

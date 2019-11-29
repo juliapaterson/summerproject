@@ -32,5 +32,8 @@
    
 * 29/11
   + channel filtering for cssr
-  + generated some first e machines for channel 1 phase 1 face vs random
-  + to do: compare 11 and 12 (face vs random inattention blindness), between channels, lmax lenghts, channel locations, graphviz bad delimiter error
+  + generated some first e machines for some random occipital + some frontal channels face vs random
+  + [progress google slides](https://docs.google.com/presentation/d/1J-2n9FFrJaEmSmRfWbBLfJKwWVFQu98Cbb28ATD8ZoI/edit?usp=sharing)
+  + to do: compare 11 and 12 (face vs random inattention blindness)
+  + compare lmax length (munoz paper) and channel locations - frontal vs occipital
+  + clean up files/documentation
