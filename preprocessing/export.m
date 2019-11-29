@@ -11,6 +11,8 @@
 %isolate channels for .mat for cssr
 load('median_split.mat');
 a = samp11(:,:,1);
+
+b = samp12(:,:,1);
 %create an empty vector to concat to
 % results = double.empty(214,0);
 % aresults = [a results];

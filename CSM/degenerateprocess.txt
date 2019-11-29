@@ -1,0 +1,17 @@
+digraph GoldenMeantxt {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 0 [label = "0 | 0.50000"];
+0 -> 1 [label = "1 | 0.50000"];
+1 -> 0 [label = "0 | 0.10000"];
+1 -> 1 [label = "1 | 0.80000"];
+1 -> 2 [label = "2 | 0.10000"];
+2 -> 1 [label = "1 | 0.10000"];
+2 -> 2 [label = "2 | 0.80000"];
+2 -> 3 [label = "0 | 0.10000"];
+3 -> 2 [label = "2 | 0.30000"];
+3 -> 3 [label = "0 | 0.70000"];
+}

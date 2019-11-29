@@ -32,4 +32,5 @@
    
 * 29/11
   + channel filtering for cssr
-  + to do: compare 11 and 12 (face vs random inattention blindness), between channels, lmax lenghts, channel locations, 
+  + generated some first e machines for channel 1 phase 1 face vs random
+  + to do: compare 11 and 12 (face vs random inattention blindness), between channels, lmax lenghts, channel locations, graphviz bad delimiter error
