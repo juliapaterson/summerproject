@@ -1,0 +1,16 @@
+load('median_split.mat');
+%make alphabet vector [0 1]
+alphabet = [0 1];
+%make options
+option = [0 0 0 1 1 0 0 0]; %set 4 and 5 to one for complexity and entropy
+%channel1
+test = samp11(:,:,1);
+%%
+%time
+tic;
+CSSR(test, alphabet, 9, 0.005, 'test', option);
+endtime = toc;
+
+%%
+%export to mat
+time = [2 11.2887 0.99898; 3 14.5262 

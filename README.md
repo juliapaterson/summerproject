@@ -38,7 +38,11 @@
   + compare lmax length (munoz paper) and channel locations - frontal vs occipital
   + clean up files/documentation
 
-* 2/12 to do:
+* 2/12 
+  + comparing/analysing some e machines
+  + memory lengths - compare runtime, complexity
+  + relating epsilon machines to shafto + pitts (2012 and 2015) results
+  +to do:
   + shafto & pitts paper:
     + N170, van, p3b, sn
     + Investigate parietal, hemispheres, phases depending on significance?

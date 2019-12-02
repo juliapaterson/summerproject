@@ -100,7 +100,6 @@ ch33face = samp11(:,:,33);
 CSSR(ch33face, alphabet,2, 0.005, 'facech33', option);
 ch33random = samp12(:,:,33);
 CSSR(ch33random, alphabet,2, 0.005, 'randomch33', option);
-
 %%
 %import median split channels
 % median = load('median_split.mat');
