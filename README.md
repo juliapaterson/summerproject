@@ -54,3 +54,6 @@
     + derivative vs median split?
   + General
     + Literature - specific channels/erps, time optimisation, perception/attention
+    
+* 3/12
+  + e machine complexity and runtime plotting/preliminary analysis
