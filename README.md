@@ -37,10 +37,9 @@
   + to do: compare 11 and 12 (face vs random inattention blindness)
   + compare lmax length (munoz paper) and channel locations - frontal vs occipital
   + clean up files/documentation
-  
-* 2/12
- + to do:
- + shafto & pitts paper:
+
+* 2/12 to do:
+  + shafto & pitts paper:
     + N170, van, p3b, sn
     + Investigate parietal, hemispheres, phases depending on significance?
     + Between noticers/blind group?
@@ -48,5 +47,6 @@
     + Memory length
     + Runtime
     + Complexity
+    + derivative vs median split?
   + General
     + Literature - specific channels/erps, time optimisation, perception/attention
