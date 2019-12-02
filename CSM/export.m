@@ -1,13 +1,4 @@
-%import median split channels
-% median = load('median_split.mat');
-% %save to txt file with space delimiter
-% dlmwrite('median11.txt',median.samp11,' ')
-% dlmwrite('median12.txt',median.samp12,' ') 
-% dlmwrite('median21.txt',median.samp21,' ') 
-% dlmwrite('median22.txt',median.samp22,' ') 
-% dlmwrite('median31.txt',median.samp31,' ') 
-% dlmwrite('median32.txt',median.samp32,' ') 
-
+%%setup
 %isolate channels for .mat for cssr
 load('median_split.mat');
 
@@ -111,6 +102,16 @@ ch33random = samp12(:,:,33);
 CSSR(ch33random, alphabet,2, 0.005, 'randomch33', option);
 
 %%
+%import median split channels
+% median = load('median_split.mat');
+% %save to txt file with space delimiter
+% dlmwrite('median11.txt',median.samp11,' ')
+% dlmwrite('median12.txt',median.samp12,' ') 
+% dlmwrite('median21.txt',median.samp21,' ') 
+% dlmwrite('median22.txt',median.samp22,' ') 
+% dlmwrite('median31.txt',median.samp31,' ') 
+% dlmwrite('median32.txt',median.samp32,' ') 
+
 %create an empty vector to concat to
 % results = double.empty(214,0);
 % aresults = [a results];
