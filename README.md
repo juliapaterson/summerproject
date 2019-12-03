@@ -57,3 +57,9 @@
     
 * 3/12
   + e machine complexity and runtime plotting/preliminary analysis
+  + to do: 
+    + plot complexities for all channels, accross conditions and memory lengths (topographic map) - massive
+    + compare median split and derivative - methods and trial numbers
+    + compare regions, iit vs gnw
+    + write actually good loops/structures for massive not just hardcode
+    + find rationale for channel location/selection

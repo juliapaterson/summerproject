@@ -26,9 +26,16 @@ ml_runtime = time(:,2,:);
 predict_ml_runtime = fit(ml, ml_runtime, 'exp2');
 
 plot(predict_ml_runtime,ml,ml_runtime)
-
+title('Time taken for CSSR algorithm to run with increasing Memory Lengths')
+xlabel('Memory Length') 
+ylabel('Time (seconds)') 
 %%
 %fit a curve to complexity
 complexity = time(:,3,:);
 predict_ml_complexity = fit(ml, complexity, 'poly5');
 plot(predict_ml_complexity, ml, complexity);
+
+title('Statistical Complexity of Epsilon Machines with increasing Memory Lengths')
+xlabel('Memory Length') 
+ylabel('Time (seconds)') 
+legend('data','5th degree polynomial curve')

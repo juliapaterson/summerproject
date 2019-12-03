@@ -1,6 +1,6 @@
 %%setup
 %isolate channels for .mat for cssr
-load('median_split.mat');
+%load('median_split.mat');
 
 %make alphabet vector [0 1]
 alphabet = [0 1];
@@ -8,13 +8,15 @@ alphabet = [0 1];
 %make options
 option = [0 0 0 1 1 0 0 0]; %set 4 and 5 to one for complexity and entropy
 
+%differentiated
+load('differentiated.mat');
 %%
 %occipital channels:
 ch1face = samp11(:,:,1);
 CSSR(ch1face, alphabet,2, 0.005, 'facech1', option);
 ch1random = samp12(:,:,1);
 CSSR(ch1random, alphabet,2, 0.005, 'randomch1', option);
-
+%%
 ch24face = samp11(:,:,24);
 CSSR(ch24face, alphabet,2, 0.005, 'facech24', option);
 ch24random = samp12(:,:,24);

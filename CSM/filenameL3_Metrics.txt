@@ -1,6 +1,0 @@
-Statistical Complexity: 1.737563
-Entropy Rate: 0.938837
-Number of States: 4
-Relative Entropy:    Inf
-Relative Entropy Rate:    Inf
-Total Variational Distance: 0.021303
