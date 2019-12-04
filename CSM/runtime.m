@@ -32,10 +32,10 @@ ylabel('Time (seconds)')
 %%
 %fit a curve to complexity
 complexity = time(:,3,:);
-predict_ml_complexity = fit(ml, complexity, 'poly5');
+predict_ml_complexity = fit(ml, complexity, 'poly7');
 plot(predict_ml_complexity, ml, complexity);
 
 title('Statistical Complexity of Epsilon Machines with increasing Memory Lengths')
 xlabel('Memory Length') 
-ylabel('Time (seconds)') 
-legend('data','5th degree polynomial curve')
+ylabel('Complexity') 
+legend('data','7th degree polynomial curve')

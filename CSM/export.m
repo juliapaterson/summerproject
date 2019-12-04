@@ -17,6 +17,7 @@ CSSR(ch1face, alphabet,2, 0.005, 'facech1', option);
 ch1random = samp12(:,:,1);
 CSSR(ch1random, alphabet,2, 0.005, 'randomch1', option);
 
+%%
 ch24face = samp11(:,:,24);
 CSSR(ch24face, alphabet,2, 0.005, 'facech24', option);
 ch24random = samp12(:,:,24);
@@ -150,6 +151,7 @@ CSSR(ch25face, alphabet,2, 0.005, 'facech25', option);
 ch25random = samp12(:,:,25);
 CSSR(ch25random, alphabet,2, 0.005, 'randomch25', option);
 %%
+
 %import median split channels
 % median = load('median_split.mat');
 % %save to txt file with space delimiter

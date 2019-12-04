@@ -63,3 +63,9 @@
     + compare regions, iit vs gnw
     + write actually good loops/structures for massive not just hardcode
     + find rationale for channel location/selection
+
+* 4/12
+  + cssr installation in linux vm
+  + fixed windows/linux newline character issues (windows \r\n and linux \n)
+  + create shared folder between home windows and linux vm
+  + need to compare csm and cssr machines
