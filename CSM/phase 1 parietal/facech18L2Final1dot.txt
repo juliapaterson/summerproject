@@ -1,0 +1,22 @@
+digraph facech18L2dottxt {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [color=red];
+2 -> 2 [label = "0 | 0.48865"];
+edge [color=red];
+3 -> 2 [label = "0 | 0.78900"];
+edge [color=red];
+4 -> 3 [label = "0 | 0.21759"];
+edge [color=red];
+5 -> 3 [label = "0 | 0.53597"];
+edge [color=red];
+2 -> 4 [label = "1 | 0.51135"];
+edge [color=red];
+3 -> 4 [label = "1 | 0.21100"];
+edge [color=red];
+4 -> 5 [label = "1 | 0.78241"];
+edge [color=red];
+5 -> 5 [label = "1 | 0.46403"];
+}

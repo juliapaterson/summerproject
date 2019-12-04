@@ -1,0 +1,22 @@
+digraph randomch18L2dottxt {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [color=red];
+2 -> 2 [label = "0 | 0.49053"];
+edge [color=red];
+3 -> 2 [label = "0 | 0.79173"];
+edge [color=red];
+4 -> 3 [label = "0 | 0.21864"];
+edge [color=red];
+5 -> 3 [label = "0 | 0.53940"];
+edge [color=red];
+2 -> 4 [label = "1 | 0.50947"];
+edge [color=red];
+3 -> 4 [label = "1 | 0.20827"];
+edge [color=red];
+4 -> 5 [label = "1 | 0.78136"];
+edge [color=red];
+5 -> 5 [label = "1 | 0.46060"];
+}

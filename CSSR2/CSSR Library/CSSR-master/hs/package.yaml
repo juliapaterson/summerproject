@@ -1,0 +1,81 @@
+name:        cssr
+version:     0.0.0.1
+synopsis:    Initial project template
+description: Please see README.md
+category:    Hidden Markov Models
+author:      Sam Stites
+maintainer:  sam@stites.io
+github:      stites/CSSR
+license:     BSD3
+copyright:   2016-2017
+
+ghc-options: -Wall -Wincomplete-record-updates -Wincomplete-uni-patterns
+
+default-extensions:
+  - MultiParamTypeClasses
+  - OverloadedStrings
+  - PatternSynonyms
+  - TypeFamilies
+  - ViewPatterns
+  - LambdaCase
+  - NoImplicitPrelude
+
+dependencies:
+  - base
+
+library:
+  source-dirs: src
+  dependencies:
+    - containers
+    - deepseq
+    - hashable
+
+    - statistics < 0.14  # API for KS-tests changes in 0.14+
+    - text
+    - unordered-containers
+    - vector
+    - vector-instances
+    - microlens-platform
+    - microlens
+    - hashtables
+    - primitive
+    - protolude
+
+    # for graphviz
+    - graphviz
+    - directory  >= 1.2.3.0 # needed for System.Directory.canonicalizePath
+
+
+executables:
+  cssr:
+    main: Main.hs
+    source-dirs: app
+    dependencies:
+      - cssr
+      - optparse-applicative
+
+tests:
+
+  spec:
+    # so that we can run per-module main functions
+    ghc-options: -Wno-unused-matches -Wno-unused-top-binds
+    source-dirs: test
+    main: Spec.hs
+    dependencies:
+      - cssr
+      - hspec
+      - text
+      - QuickCheck
+      - unordered-containers
+      - vector
+
+benchmarks:
+  bench:
+    source-dirs: bench
+    main: Main.hs
+    dependencies:
+      - cssr
+      - criterion
+      - deepseq
+    ghc-options: -O2
+

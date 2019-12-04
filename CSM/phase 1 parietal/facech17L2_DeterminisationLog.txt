@@ -1,0 +1,23 @@
+Determinisation Log 
+ 
+
+State 0:  0
+State 1:  1
+State 2:  00, 11
+State 3:  10
+State 4:  01
+______________________________________________________________________ 
+
+String: 11 
+
+String Destinations:   3 	2 	
+State Destinations:    2 	4 	
+
+State 0:  0
+State 1:  1
+State 2:  00
+State 3:  10
+State 4:  01
+State 5:  11
+______________________________________________________________________ 
+

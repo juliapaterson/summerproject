@@ -16,7 +16,7 @@ ch1face = samp11(:,:,1);
 CSSR(ch1face, alphabet,2, 0.005, 'facech1', option);
 ch1random = samp12(:,:,1);
 CSSR(ch1random, alphabet,2, 0.005, 'randomch1', option);
-%%
+
 ch24face = samp11(:,:,24);
 CSSR(ch24face, alphabet,2, 0.005, 'facech24', option);
 ch24random = samp12(:,:,24);
@@ -102,6 +102,53 @@ ch33face = samp11(:,:,33);
 CSSR(ch33face, alphabet,2, 0.005, 'facech33', option);
 ch33random = samp12(:,:,33);
 CSSR(ch33random, alphabet,2, 0.005, 'randomch33', option);
+
+%%
+%parietal channels
+ch3face = samp11(:,:,3);
+CSSR(ch3face, alphabet,2, 0.005, 'facech3', option);
+ch3random = samp12(:,:,33);
+CSSR(ch3random, alphabet,2, 0.005, 'randomch3', option);
+
+ch18face = samp11(:,:,18);
+CSSR(ch18face, alphabet,2, 0.005, 'facech18', option);
+ch18random = samp12(:,:,18);
+CSSR(ch18random, alphabet,2, 0.005, 'randomch18', option);
+
+ch16face = samp11(:,:,16);
+CSSR(ch16face, alphabet,2, 0.005, 'facech16', option);
+ch16random = samp12(:,:,16);
+CSSR(ch16random, alphabet,2, 0.005, 'randomch16', option);
+
+ch14face = samp11(:,:,14);
+CSSR(ch14face, alphabet,2, 0.005, 'facech14', option);
+ch14random = samp12(:,:,14);
+CSSR(ch14random, alphabet,2, 0.005, 'randomch14', option);
+
+ch7face = samp11(:,:,7);
+CSSR(ch7face, alphabet,2, 0.005, 'facech7', option);
+ch7random = samp12(:,:,7);
+CSSR(ch7random, alphabet,2, 0.005, 'randomch7', option);
+
+ch19face = samp11(:,:,19);
+CSSR(ch19face, alphabet,2, 0.005, 'facech19', option);
+ch19random = samp12(:,:,19);
+CSSR(ch19random, alphabet,2, 0.005, 'randomch19', option);
+
+ch17face = samp11(:,:,17);
+CSSR(ch17face, alphabet,2, 0.005, 'facech17', option);
+ch17random = samp12(:,:,17);
+CSSR(ch17random, alphabet,2, 0.005, 'randomch17', option);
+
+ch15face = samp11(:,:,15);
+CSSR(ch15face, alphabet,2, 0.005, 'facech15', option);
+ch15random = samp12(:,:,15);
+CSSR(ch15random, alphabet,2, 0.005, 'randomch15', option);
+
+ch25face = samp11(:,:,25);
+CSSR(ch25face, alphabet,2, 0.005, 'facech25', option);
+ch25random = samp12(:,:,25);
+CSSR(ch25random, alphabet,2, 0.005, 'randomch25', option);
 %%
 %import median split channels
 % median = load('median_split.mat');
