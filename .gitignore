@@ -40,6 +40,7 @@ data/
 
 #ignore large .mat files
 preprocessing/*.mat
+comparisons/*.mat
 
 #ignore cssr
 /CSSR

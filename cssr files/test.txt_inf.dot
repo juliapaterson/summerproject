@@ -1,0 +1,11 @@
+digraph "test.txt" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 1 [label = "0: 0.1324   "];
+0 -> 0 [label = "1: 0.8676   "];
+1 -> 1 [label = "0: 0.8043   "];
+1 -> 0 [label = "1: 0.1957   "];
+}

@@ -1,0 +1,18 @@
+digraph facech1_ml4L4dottxt {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+2 -> 2 [label = "0 | 0.87988"];
+edge [fontsize = 24];
+4 -> 2 [label = "0 | 0.17398"];
+edge [fontsize = 24];
+6 -> 2 [label = "0 | 0.23283"];
+edge [color=black];
+2 -> 4 [label = "1 | 0.12012"];
+edge [color=black];
+4 -> 6 [label = "1 | 0.82602"];
+edge [color=black];
+6 -> 6 [label = "1 | 0.76717"];
+}

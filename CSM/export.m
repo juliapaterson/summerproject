@@ -1,6 +1,6 @@
 %%setup
 %isolate channels for .mat for cssr
-%load('median_split.mat');
+load('median_split.mat');
 
 %make alphabet vector [0 1]
 alphabet = [0 1];
@@ -9,7 +9,7 @@ alphabet = [0 1];
 option = [0 0 0 1 1 0 0 0]; %set 4 and 5 to one for complexity and entropy
 
 %differentiated
-load('differentiated.mat');
+%load('differentiated.mat');
 %%
 %occipital channels:
 ch1face = samp11(:,:,1);
