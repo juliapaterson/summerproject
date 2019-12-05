@@ -72,4 +72,4 @@
   
 * 5/12
   + comparison of cssr and csm
-  + vm shared folder broke?
+  + vm shared folder - need to mount each reboot
