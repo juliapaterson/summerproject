@@ -69,3 +69,7 @@
   + fixed windows/linux newline character issues (windows \r\n and linux \n)
   + create shared folder between home windows and linux vm
   + need to compare csm and cssr machines
+  
+* 5/12
+  + comparison of cssr and csm
+  + vm shared folder broke?
