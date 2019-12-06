@@ -81,5 +81,7 @@
     + Compute, plot & predict runtime and complexities for CSSR
     compare median split and differentiated data
     + make more eMs for more channels, mmls: compare frontal and occipital channels
+    + eMs topography
     + Compare eMs over whole condition (Yota's comment)
     + Fix ml errors
+    + fix linux matlab installation errors
