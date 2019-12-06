@@ -1,5 +1,0 @@
-Welcome to the Causal State Modeller Toolbox
-
-To run the GUI simply navigate to this directory and type 'CSM' at the command prompt.
-
-Click the 'Help' button in the bottom right hand corner for detailed instructions on use. 
