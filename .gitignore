@@ -46,7 +46,11 @@ comparisons/*.mat
 /CSSR
 
 #ignore csm
-CSM/*
+CSM/*.m
+CSM/*.txt
+CSM/*.fig
+CSM/*.png
+CSM/*.pdf
 
 #except things that i've done
 !CSM/important/
