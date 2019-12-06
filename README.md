@@ -76,5 +76,10 @@
   
 * 6/12
   + generated some eMs with cssr for different mmls
-  + cleanup directories/files
-  + need to update progress ppt with new cssr things, archive old ones
+  + cleanup directories/files --> updated workflow following munoz paper groupings
+  + to do:
+    + Compute, plot & predict runtime and complexities for CSSR
+    compare median split and differentiated data
+    + make more eMs for more channels, mmls: compare frontal and occipital channels
+    + Compare eMs over whole condition (Yota's comment)
+    + Fix ml errors

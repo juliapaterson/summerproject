@@ -39,3 +39,26 @@ title('Statistical Complexity of Epsilon Machines with increasing Memory Lengths
 xlabel('Memory Length') 
 ylabel('Complexity') 
 legend('data','7th degree polynomial curve')
+
+%%
+%cssr complexity
+cssr_complexity = [2 0.999898 0.999899; 3 2.11419 2.21515; 4 2.54742 2.70557; 5 3.05505 2.65665];
+cssr_ml = cssr_complexity(:,1,:);
+face_complexity = cssr_complexity(:,2,:);
+random_complexity = cssr_complexity(:,3,:);
+
+predict_cssr_face = fit(cssr_ml, face_complexity, 'poly1');
+predict_cssr_random = fit(cssr_ml, random_complexity, 'poly1');
+plot(predict_cssr_face, cssr_ml, face_complexity);
+
+title('Statistical Complexity of Epsilon Machines for face stimuli with increasing Memory Lengths')
+xlabel('Memory Length') 
+ylabel('Complexity') 
+legend('data','fitted curve')
+
+%%
+plot(predict_cssr_random, cssr_ml, random_complexity);
+title('Statistical Complexity of Epsilon Machines for random stimuli with increasing Memory Lengths')
+xlabel('Memory Length') 
+ylabel('Complexity') 
+legend('data','fitted curve')

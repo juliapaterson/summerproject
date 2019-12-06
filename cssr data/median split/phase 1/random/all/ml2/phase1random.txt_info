@@ -1,0 +1,13 @@
+Alphabet File: alph.txt
+Data File: phase1random.txt
+History Length: 2
+Significance Level: 0.005
+Multiline Mode: true
+Chi-squared test used: false
+Alphabet Size: 2
+Relative Entropy: 0
+Relative Entropy Rate: 1.8173e-16
+Statistical Complexity: 1.57663
+Entropy Rate: 0.575954
+Variation: 0.995349
+Number of Inferred States: 4
