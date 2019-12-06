@@ -36,7 +36,7 @@ vignettes/*.pdf
 rsconnect/
 
 #ignore data which is too big
-data/
+preprocessing/data/
 
 #ignore large .mat files
 preprocessing/*.mat
@@ -44,3 +44,10 @@ comparisons/*.mat
 
 #ignore cssr
 /CSSR
+
+#ignore csm
+CSM/*
+
+#except things that i've done
+!CSM/important/
+!CSM/csm_emachines

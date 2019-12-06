@@ -1,0 +1,13 @@
+Alphabet File: alph.txt
+Data File: mltest.txt
+History Length: 3
+Significance Level: 0.005
+Multiline Mode: false
+Chi-squared test used: false
+Alphabet Size: 2
+Relative Entropy: 0
+Relative Entropy Rate: 2.11812e-05
+Statistical Complexity: 2.11874
+Entropy Rate: 0.573038
+Variation: 0.00422864
+Number of Inferred States: 7

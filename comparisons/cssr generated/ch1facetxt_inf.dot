@@ -1,0 +1,11 @@
+digraph "ch1face.txt" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 1 [label = "0: 0.1395   "];
+0 -> 0 [label = "1: 0.8605   "];
+1 -> 1 [label = "0: 0.8639   "];
+1 -> 0 [label = "1: 0.1361   "];
+}

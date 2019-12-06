@@ -73,3 +73,8 @@
 * 5/12
   + comparison of cssr and csm
   + vm shared folder - need to mount each reboot
+  
+* 6/12
+  + generated some eMs with cssr for different mmls
+  + cleanup directories/files
+  + need to update progress ppt with new cssr things, archive old ones
