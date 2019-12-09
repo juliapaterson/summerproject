@@ -53,6 +53,4 @@ CSM/csm/
 !CSM/csm_emachines
 
 #ignore CSSR things except important
-/cpp/*.cpp
-/cpp/*.h
-/cpp/*.o
+/cpp
