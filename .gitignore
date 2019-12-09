@@ -43,7 +43,7 @@ preprocessing/*.mat
 comparisons/*.mat
 
 #ignore cssr
-/CSSR
+/cleanCSSR
 
 #ignore csm
 CSM/csm/
@@ -51,3 +51,8 @@ CSM/csm/
 #except things that i've done
 !CSM/important/
 !CSM/csm_emachines
+
+#ignore CSSR things except important
+cpp/*.hcpp
+cpp/*.h
+cpp/*.o

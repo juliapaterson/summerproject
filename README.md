@@ -38,6 +38,8 @@
   + compare lmax length (munoz paper) and channel locations - frontal vs occipital
   + clean up files/documentation
 
+**week 2 2/12 - 6/12**
+
 * 2/12 
   + comparing/analysing some e machines
   + memory lengths - compare runtime, complexity
@@ -86,3 +88,12 @@
     + Compare eMs over whole condition (Yota's comment)
     + Fix ml errors
     + fix linux matlab installation errors
+
+**week 3 9/12 - 13/12**
+
+* 9/12
+  + wrangling linux vm
+  + [resized partition](http://derekmolloy.ie/resize-a-virtualbox-disk)
+  + vm matlab cssr
+    + generate and plot runtimes and complexities
+    + to do: compare to command line cssr, other stuff from last week
