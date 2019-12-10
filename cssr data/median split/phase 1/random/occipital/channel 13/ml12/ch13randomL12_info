@@ -1,0 +1,14 @@
+Alphabet File: binary01-alphabet.txt
+Data File: ch13randomL12
+History Length: 12
+Significance Level: 0.001
+Multiline Mode: true
+Chi-squared test used: false
+Alphabet Size: 2
+Relative Entropy: 0
+Relative Entropy Rate: 5.35707e-05
+Statistical Complexity: 5.37397
+Entropy Rate: 0.535748
+Variation: 0.993929
+Number of Inferred States: 509
+This data needed to be synchronized to a set of states more than once.  It is recommended that you try a longer history length, as this set of states cannot possibly be the causal states.

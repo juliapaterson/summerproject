@@ -97,3 +97,9 @@
   + vm matlab cssr
     + generate and plot runtimes and complexities
     + to do: compare to command line cssr, other stuff from last week
+    
+* 10/12
+  + generate ems for occipital channels of memory lengths
+  + plot complexity difference vs memory length - need to avg across channels?
+  + basic occipital topography of complexities for phase 1 face vs random
+  + see ppt for to do
