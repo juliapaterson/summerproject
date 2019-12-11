@@ -103,3 +103,6 @@
   + plot complexity difference vs memory length - need to avg across channels?
   + basic occipital topography of complexities for phase 1 face vs random
   + see ppt for to do
+
+* 11/12
+  + plotting complexities
