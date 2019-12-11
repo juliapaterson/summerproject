@@ -42,6 +42,9 @@ plot(2:16, ch13_face.face_complexities);
 plot(2:16, ch11_face.face_complexities);
 plot(2:16, ch2_face.face_complexities);
 legend('1','24','10','12','5','6','13','11','2','Location', 'northwest')
+title('statistical complexity vs memory length for face stimuli in occipital channels')
+xlabel('memory length')
+ylabel('statistical complexity')
 hold off
 %%
 plot(2:16, ch1_random.random_complexities);
@@ -55,6 +58,9 @@ plot(2:16, ch13_random.random_complexities);
 plot(2:16, ch11_random.random_complexities);
 plot(2:16, ch2_random.random_complexities);
 legend('1','24','10','12','5','6','13','11','2','Location', 'northwest')
+title('statistical complexity vs memory length for random stimuli in occipital channels')
+xlabel('memory length')
+ylabel('statistical complexity')
 hold off
 %%
 ch1_diff = ch1_face.face_complexities - ch1_random.random_complexities;
@@ -67,7 +73,6 @@ ch13_diff = ch13_face.face_complexities - ch13_random.random_complexities;
 ch11_diff = ch11_face.face_complexities - ch11_random.random_complexities;
 ch2_diff = ch2_face.face_complexities - ch2_random.random_complexities;
 
-avg_diff = face_avg - random_avg;
 %%
 plot(2:16, ch1_diff);
 hold on
@@ -80,6 +85,9 @@ plot(2:16, ch13_diff);
 plot(2:16, ch11_diff);
 plot(2:16, ch2_diff);
 legend('1','24','10','12','5','6','13','11','2','average','Location', 'northeast')
+title('difference in statistical complexity vs memory length between face and random stimuli in occipital channels')
+xlabel('memory length')
+ylabel('statistical complexity')
 hold off
 %%
 %set nans to 0 to plot avgs
@@ -111,4 +119,7 @@ plot(2:16, face_avg,'r');
 hold on
 plot(2:16, random_avg, 'b');
 legend('face','random','Location', 'northwest')
+title('average statistical complexity vs memory length in occipital channels')
+xlabel('memory length')
+ylabel('statistical complexity')
 hold off
