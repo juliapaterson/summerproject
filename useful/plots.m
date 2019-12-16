@@ -91,7 +91,7 @@ ylabel('statistical complexity')
 hold off
 %%
 %set nans to 0 to plot avgs
-ch1_face_clean.face_complexities(isnan(ch1_face.face_complexities)) = 0;
+ch1_face.face_complexities(isnan(ch1_face.face_complexities)) = 0;
 ch24_face.face_complexities(isnan(ch24_face.face_complexities)) = 0;
 ch10_face.face_complexities(isnan(ch10_face.face_complexities)) = 0;
 ch12_face.face_complexities(isnan(ch12_face.face_complexities)) = 0;

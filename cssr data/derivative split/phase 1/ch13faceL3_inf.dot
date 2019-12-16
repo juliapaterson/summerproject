@@ -1,0 +1,17 @@
+digraph "ch13faceL3" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 2 [label = "0: 0.1576   "];
+0 -> 1 [label = "1: 0.8424   "];
+1 -> 2 [label = "0: 0.4909   "];
+1 -> 1 [label = "1: 0.5091   "];
+2 -> 4 [label = "0: 0.7983   "];
+2 -> 0 [label = "1: 0.2017   "];
+3 -> 3 [label = "0: 0.3759   "];
+3 -> 0 [label = "1: 0.6241   "];
+4 -> 3 [label = "0: 0.4847   "];
+4 -> 0 [label = "1: 0.5153   "];
+}
