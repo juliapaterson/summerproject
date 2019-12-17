@@ -1,0 +1,19 @@
+digraph "ch13randomL3" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 2 [label = "0: 0.1609   "];
+0 -> 1 [label = "1: 0.8391   "];
+1 -> 2 [label = "0: 0.4758   "];
+1 -> 4 [label = "1: 0.5242   "];
+2 -> 5 [label = "0: 0.7985   "];
+2 -> 0 [label = "1: 0.2015   "];
+3 -> 3 [label = "0: 0.3756   "];
+3 -> 0 [label = "1: 0.6244   "];
+4 -> 2 [label = "0: 0.4976   "];
+4 -> 4 [label = "1: 0.5024   "];
+5 -> 3 [label = "0: 0.477    "];
+5 -> 0 [label = "1: 0.523    "];
+}

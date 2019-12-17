@@ -1,73 +1,82 @@
 %%
-load("median_split.mat");
-
+frontal = {8 9 20 21 22 23 33 34 35};
+occipital = {1 2 5 6 10 11 12 13 24};
 %%
-ch1face = samp11(:,:,1);
-ch1random = samp12(:,:,1);
+load("differentiated.mat");
 
-ch24face = samp11(:,:,24);
-ch24random = samp12(:,:,24);
+for i = 1:45
+    ch_name = strcat('ch',num2str(i),'face');
+    phase1.(ch_name) = samp11(:,:,i);
+end
 
-ch10face = samp11(:,:,10);
-ch10random = samp12(:,:,10);
+for i = 1:45
+    ch_name = strcat('ch',num2str(i),'random');
+    phase1.(ch_name) = samp12(:,:,i);
+end 
 
-ch12face = samp11(:,:,12);
-ch12random = samp12(:,:,12);
+for i = 1:45
+    ch_name = strcat('ch',num2str(i),'face');
+    phase2.(ch_name) = samp21(:,:,i);
+end 
 
-ch5face = samp11(:,:,5);
-ch5random = samp12(:,:,5);
+for i = 1:45
+    ch_name = strcat('ch',num2str(i),'random');
+    phase2.(ch_name) = samp22(:,:,i);
+end 
 
-ch6face = samp11(:,:,6);
-ch6random = samp12(:,:,6);
+for i = 1:45
+    ch_name = strcat('ch',num2str(i),'face');
+    phase3.(ch_name) = samp31(:,:,i);
+end 
 
-ch13face = samp11(:,:,13);
-ch13random = samp12(:,:,13);
+for i = 1:45
+    ch_name = strcat('ch',num2str(i),'random');
+    phase3.(ch_name) = samp32(:,:,i);
+end 
 
-ch11face = samp11(:,:,11);
-ch11random = samp12(:,:,11);
-
-ch2face = samp11(:,:,2);
-ch2random = samp12(:,:,2);
+save('cssr_derivative_workspace')
 %%
-face_complexities = [];
-face_timestamps = [];
-for i = 2:16
-    try
-        tic
-            face_complexities = [face_complexities run_CSSR(ch2face, "binary01-alphabet.txt", i, "ch2face", true)];
-        td = toc;
-        face_timestamps = [face_timestamps td];
-    catch
-        face_complexities = [face_complexities NaN]; %if error, set complexity to nan
-        face_timestamps = [face_timestamps NaN];
+tic
+for k = [8,9,20,21,22,23,33,34,35]
+    for i = 2:10
+        face_complexities = zeros(1,16);
+        face_timestamps = zeros(1,16);
+        input_name = strcat('ch',num2str(k),'face');
+        input = phase1.(input_name);
+        output = strcat('ch',num2str(k),'face');
+        try
+            tic
+                face_complexities = [face_complexities run_CSSR(input, "binary01-alphabet.txt", i, output, true)];
+            td = toc;
+            face_timestamps = [face_timestamps td];
+        catch
+            face_complexities = [face_complexities NaN]; %if error, set complexity to nan
+            face_timestamps = [face_timestamps NaN];
+        end
     end
 end
 
-random_complexities = [];
-random_timestamps = [];
-for i = 2:16
-    try
-        tic
-            random_complexities = [random_complexities run_CSSR(ch2random, "binary01-alphabet.txt", i, "ch2random", true)];
-        td = toc;
-        random_timestamps = [random_timestamps td];
-    catch
-        random_complexities = [random_complexities NaN]; %if error, set complexity to nan
-        random_timestamps = [random_timestamps NaN];
+for k = [8,9,20,21,22,23,33,34,35]
+    for i = 2:10
+        random_complexities = zeros(1,16);
+        random_timestamps = zeros(1,16);
+        input_name = strcat('ch',num2str(k),'random');
+        input = phase1.(input_name);
+        output = strcat('ch',num2str(k),'random');
+        try
+            tic
+                random_complexities = [random_complexities run_CSSR(input, "binary01-alphabet.txt", i, output, true)];
+            td = toc;
+            random_timestamps = [random_timestamps td];
+        catch
+            random_complexities = [random_complexities NaN]; %if error, set complexity to nan
+            random_timestamps = [random_timestamps NaN];
+        end
     end
 end
-
+all_frontal_time = toc;
+%%
 save('ch2_random_complexities','random_complexities');
 save('ch2_random_timestamps','random_timestamps');
 save('ch2_face_complexities','face_complexities');
 save('ch2_face_timestamps','face_timestamps');
-%%
-plot(2:16, face_timestamps)
-title('time taken for CSSR to run with increasing memory lengths')
-xlabel('memory length')
-ylabel('time (seconds)')
-%%
-plot(2:16, face_complexities)
-title('statistical complexity of CSSR epsilon machines with increasing memory length')
-xlabel('memory length')
-ylabel('statistical complexity')

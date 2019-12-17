@@ -1,0 +1,94 @@
+State number: 0
+1101
+distribution: P(0) = 0.17413	P(1) = 0.82587	
+transitions: T(0) = 13	T(1) = 14	
+P(state): 0.0367995
+
+State number: 1
+011
+0011
+distribution: P(0) = 0.499625	P(1) = 0.500375	
+transitions: T(0) = 6	T(1) = 5	
+P(state): 0.125457
+
+State number: 2
+010
+0010
+distribution: P(0) = 0.788894	P(1) = 0.211106	
+transitions: T(0) = 7	T(1) = 8	
+P(state): 0.0298767
+
+State number: 3
+000
+0000
+1000
+distribution: P(0) = 0.409304	P(1) = 0.590696	
+transitions: T(0) = 3	T(1) = 4	
+P(state): 0.12359
+
+State number: 4
+0001
+distribution: P(0) = 0.166026	P(1) = 0.833974	
+transitions: T(0) = 2	T(1) = 1	
+P(state): 0.0728334
+
+State number: 5
+0111
+distribution: P(0) = 0.475117	P(1) = 0.524883	
+transitions: T(0) = 9	T(1) = 10	
+P(state): 0.0802986
+
+State number: 6
+0110
+distribution: P(0) = 0.72143	P(1) = 0.27857	
+transitions: T(0) = 12	T(1) = 0	
+P(state): 0.0818778
+
+State number: 7
+0100
+distribution: P(0) = 0.376157	P(1) = 0.623843	
+transitions: T(0) = 3	T(1) = 11	
+P(state): 0.0293822
+
+State number: 8
+0101
+distribution: P(0) = 0.101159	P(1) = 0.898841	
+transitions: T(0) = 13	T(1) = 14	
+P(state): 0.00758482
+
+State number: 9
+1110
+distribution: P(0) = 0.825476	P(1) = 0.174524	
+transitions: T(0) = 12	T(1) = 0	
+P(state): 0.0802587
+
+State number: 10
+1111
+distribution: P(0) = 0.523181	P(1) = 0.476819	
+transitions: T(0) = 9	T(1) = 10	
+P(state): 0.0805538
+
+State number: 11
+1001
+distribution: P(0) = 0.216211	P(1) = 0.783789	
+transitions: T(0) = 2	T(1) = 1	
+P(state): 0.0818539
+
+State number: 12
+1100
+distribution: P(0) = 0.493358	P(1) = 0.506642	
+transitions: T(0) = 3	T(1) = 11	
+P(state): 0.125225
+
+State number: 13
+1010
+distribution: P(0) = 0.850166	P(1) = 0.149834	
+transitions: T(0) = 7	T(1) = 8	
+P(state): 0.00718604
+
+State number: 14
+1011
+distribution: P(0) = 0.546529	P(1) = 0.453471	
+transitions: T(0) = 6	T(1) = 5	
+P(state): 0.0372222
+

@@ -1,0 +1,96 @@
+State number: 0
+1100
+distribution: P(0) = 0.52043	P(1) = 0.47957	
+transitions: T(0) = 13	T(1) = 6	
+P(state): 0.118212
+
+State number: 1
+0010
+distribution: P(0) = 0.782704	P(1) = 0.217296	
+transitions: T(0) = 11	T(1) = 12	
+P(state): 0.0366417
+
+State number: 2
+0011
+distribution: P(0) = 0.483359	P(1) = 0.516641	
+transitions: T(0) = 10	T(1) = 14	
+P(state): 0.1181
+
+State number: 3
+1101
+distribution: P(0) = 0.221871	P(1) = 0.778129	
+transitions: T(0) = 8	T(1) = 7	
+P(state): 0.0354603
+
+State number: 4
+1110
+distribution: P(0) = 0.811061	P(1) = 0.188939	
+transitions: T(0) = 0	T(1) = 3	
+P(state): 0.0751116
+
+State number: 5
+1111
+distribution: P(0) = 0.555838	P(1) = 0.444162	
+transitions: T(0) = 4	T(1) = 5	
+P(state): 0.069276
+
+State number: 6
+1001
+distribution: P(0) = 0.27975	P(1) = 0.72025	
+transitions: T(0) = 1	T(1) = 2	
+P(state): 0.0780094
+
+State number: 7
+1011
+distribution: P(0) = 0.601533	P(1) = 0.398467	
+transitions: T(0) = 10	T(1) = 14	
+P(state): 0.0355082
+
+State number: 8
+1010
+distribution: P(0) = 0.894309	P(1) = 0.105691	
+transitions: T(0) = 11	T(1) = 12	
+P(state): 0.00885309
+
+State number: 9
+0000
+distribution: P(0) = 0.454535	P(1) = 0.545465	
+transitions: T(0) = 9	T(1) = 15	
+P(state): 0.0719822
+
+State number: 10
+0110
+distribution: P(0) = 0.729313	P(1) = 0.270687	
+transitions: T(0) = 0	T(1) = 3	
+P(state): 0.0785123
+
+State number: 11
+0100
+distribution: P(0) = 0.419404	P(1) = 0.580596	
+transitions: T(0) = 13	T(1) = 6	
+P(state): 0.0365699
+
+State number: 12
+0101
+distribution: P(0) = 0.11241	P(1) = 0.88759	
+transitions: T(0) = 8	T(1) = 7	
+P(state): 0.00890099
+
+State number: 13
+1000
+distribution: P(0) = 0.511444	P(1) = 0.488556	
+transitions: T(0) = 9	T(1) = 15	
+P(state): 0.0769157
+
+State number: 14
+0111
+distribution: P(0) = 0.48689	P(1) = 0.51311	
+transitions: T(0) = 4	T(1) = 5	
+P(state): 0.0751595
+
+State number: 15
+0001
+distribution: P(0) = 0.193175	P(1) = 0.806825	
+transitions: T(0) = 1	T(1) = 2	
+P(state): 0.076788
+

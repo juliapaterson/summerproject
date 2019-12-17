@@ -1,15 +1,16 @@
 State number: 0
 0001
 distribution: P(0) = 0.20875	P(1) = 0.79125	
-transitions: T(0) = 2	T(1) = 1	
-P(state): 0.0754702
+transitions: T(0) = 2	T(1) = 6	
+P(state): 0.0754976
 
 State number: 1
-011
-0011
-distribution: P(0) = 0.487248	P(1) = 0.512752	
-transitions: T(0) = 5	T(1) = 8	
-P(state): 0.117026
+111
+0111
+1111
+distribution: P(0) = 0.498173	P(1) = 0.501827	
+transitions: T(0) = 11	T(1) = 1	
+P(state): 0.15366
 
 State number: 2
 010
@@ -17,7 +18,7 @@ State number: 2
 1010
 distribution: P(0) = 0.828958	P(1) = 0.171042	
 transitions: T(0) = 4	T(1) = 3	
-P(state): 0.0429413
+P(state): 0.0429569
 
 State number: 3
 101
@@ -25,61 +26,59 @@ State number: 3
 1101
 distribution: P(0) = 0.173074	P(1) = 0.826926	
 transitions: T(0) = 2	T(1) = 12	
-P(state): 0.0420803
+P(state): 0.0420956
 
 State number: 4
 0100
 distribution: P(0) = 0.431231	P(1) = 0.568769	
-transitions: T(0) = 6	T(1) = 7	
-P(state): 0.0355154
+transitions: T(0) = 7	T(1) = 8	
+P(state): 0.0355283
 
 State number: 5
 0110
 distribution: P(0) = 0.735835	P(1) = 0.264165	
 transitions: T(0) = 10	T(1) = 3	
-P(state): 0.0747572
+P(state): 0.0747843
 
 State number: 6
+0011
+distribution: P(0) = 0.477783	P(1) = 0.522217	
+transitions: T(0) = 5	T(1) = 1	
+P(state): 0.116705
+
+State number: 7
 1000
 distribution: P(0) = 0.531759	P(1) = 0.468241	
 transitions: T(0) = 9	T(1) = 0	
-P(state): 0.0753626
-
-State number: 7
-1001
-distribution: P(0) = 0.258927	P(1) = 0.741073	
-transitions: T(0) = 2	T(1) = 1	
-P(state): 0.0767751
+P(state): 0.0753899
 
 State number: 8
-111
-0111
-1111
-distribution: P(0) = 0.498173	P(1) = 0.501827	
-transitions: T(0) = 11	T(1) = 8	
-P(state): 0.153604
+1001
+distribution: P(0) = 0.258927	P(1) = 0.741073	
+transitions: T(0) = 2	T(1) = 6	
+P(state): 0.076803
 
 State number: 9
 0000
 distribution: P(0) = 0.49199	P(1) = 0.50801	
 transitions: T(0) = 9	T(1) = 0	
-P(state): 0.0790621
+P(state): 0.0790908
 
 State number: 10
 1100
 distribution: P(0) = 0.514111	P(1) = 0.485889	
-transitions: T(0) = 6	T(1) = 7	
-P(state): 0.116568
+transitions: T(0) = 7	T(1) = 8	
+P(state): 0.116611
 
 State number: 11
 1110
 distribution: P(0) = 0.805767	P(1) = 0.194233	
 transitions: T(0) = 10	T(1) = 3	
-P(state): 0.0761832
+P(state): 0.0762109
 
 State number: 12
 1011
 distribution: P(0) = 0.551012	P(1) = 0.448988	
-transitions: T(0) = 5	T(1) = 8	
-P(state): 0.0346544
+transitions: T(0) = 5	T(1) = 1	
+P(state): 0.034667
 

@@ -112,7 +112,13 @@
   + refined focus and explore relevance to IIT at lab meeting
 
 **week 3 9/12 - 13/12**
+
 * 16/12
   + sped up vm with 3d rendering enabled
   + made a big loop to compute all channels/memory lengths
   + need to learn how to use massive & write some documentation
+  
+* 17/12
+  + learning bash/massive
+  + generate some more frontal/occipital eMs
+  + need to submit jobs to massive + update progress slides

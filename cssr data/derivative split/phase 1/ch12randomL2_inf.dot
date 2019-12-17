@@ -1,0 +1,15 @@
+digraph "ch12randomL2" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 2 [label = "0: 0.7924   "];
+0 -> 3 [label = "1: 0.2076   "];
+1 -> 0 [label = "0: 0.5218   "];
+1 -> 1 [label = "1: 0.4782   "];
+2 -> 2 [label = "0: 0.4691   "];
+2 -> 3 [label = "1: 0.5309   "];
+3 -> 0 [label = "0: 0.2063   "];
+3 -> 1 [label = "1: 0.7937   "];
+}
