@@ -122,3 +122,10 @@
   + learning bash/massive
   + generate some more frontal/occipital eMs
   + need to submit jobs to massive + update progress slides
+
+* 18/12
+  + cleaned up matlab 
+  + save complexities and runtime in loops
+  + made some colourplots/heatmaps
+  + further analysis on frontal/occipital in phase 1
+  + need to compare across phases and run ttests/anovas, use massive for big mls

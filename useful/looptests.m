@@ -7,10 +7,13 @@ for k1 = 1:length(numlist)
 end
 
 %%
+load('cssr_derivative_workspace.mat')
+%%
+all_face_complexities = [];
 for k = [1,2,5,6,10,11,12,13,24]
-    for i = 2:5
-        face_complexities = [];
-        face_timestamps = [];
+    face_complexities = [];
+    face_timestamps = [];
+    for i = 2:10
         input_name = strcat('ch',num2str(k),'face');
         input = phase1.(input_name);
         output = strcat('ch',num2str(k),'face');
@@ -24,4 +27,11 @@ for k = [1,2,5,6,10,11,12,13,24]
             face_timestamps = [face_timestamps NaN];
         end
     end
+    all_face_complexities = [all_face_complexities; face_complexities];
 end
+
+save('occipital_face_complexities','all_face_complexities');
+%%
+tic
+run_CSSR(phase1.ch1face, 'binary01-alphabet.txt', 16, output, true);
+ml_end = toc;

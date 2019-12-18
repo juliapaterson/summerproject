@@ -123,3 +123,23 @@ title('average statistical complexity vs memory length in occipital channels')
 xlabel('memory length')
 ylabel('statistical complexity')
 hold off
+
+%%
+load('occipital_face_complexities.mat')
+load('occipital_random_complexities.mat')
+load('occipital_random_timestamps.mat')
+load('occipital_face_timestamps.mat')
+
+%%
+clf
+heatmap(2:10, {'1','2','5','6','10','11','12','13','24'}, all_face_complexities)
+colormap parula
+%%
+heatmap(2:10, {'1','2','5','6','10','11','12','13','24'}, all_random_complexities)
+colormap parula
+%%
+plot(2:10, all_face_timestamps)
+legend('1','2','5','6','10','11','12','13','24','Location', 'northeast')
+
+%%
+plot(2:10, all_random_timestamps)

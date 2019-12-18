@@ -1,7 +1,6 @@
-%%
-frontal = {8 9 20 21 22 23 33 34 35};
-occipital = {1 2 5 6 10 11 12 13 24};
-%%
+%frontal = {8 9 20 21 22 23 33 34 35};
+%occipital = {1 2 5 6 10 11 12 13 24};
+
 load("differentiated.mat");
 
 for i = 1:45
@@ -34,13 +33,14 @@ for i = 1:45
     phase3.(ch_name) = samp32(:,:,i);
 end 
 
-save('cssr_derivative_workspace')
-%%
-tic
-for k = [8,9,20,21,22,23,33,34,35]
+%save('cssr_derivative_workspace')
+
+all_face_complexities = [];
+all_face_timestamps = [];
+for k = [1,2,5,6,10,11,12,13,24]
+    face_complexities = [];
+    face_timestamps = [];
     for i = 2:10
-        face_complexities = zeros(1,16);
-        face_timestamps = zeros(1,16);
         input_name = strcat('ch',num2str(k),'face');
         input = phase1.(input_name);
         output = strcat('ch',num2str(k),'face');
@@ -54,12 +54,18 @@ for k = [8,9,20,21,22,23,33,34,35]
             face_timestamps = [face_timestamps NaN];
         end
     end
+    all_face_complexities = [all_face_complexities; face_complexities];
+    all_face_timestamps = [all_face_timestamps; face_timestamps];
 end
+save('occipital_face_complexities','all_face_complexities');
+save('occipital_face_timestamps','all_face_timestamps');
 
-for k = [8,9,20,21,22,23,33,34,35]
+all_random_complexities = [];
+all_random_timestamps = [];
+for k = [1,2,5,6,10,11,12,13,24]
+    random_complexities = [];
+    random_timestamps = [];
     for i = 2:10
-        random_complexities = zeros(1,16);
-        random_timestamps = zeros(1,16);
         input_name = strcat('ch',num2str(k),'random');
         input = phase1.(input_name);
         output = strcat('ch',num2str(k),'random');
@@ -73,10 +79,9 @@ for k = [8,9,20,21,22,23,33,34,35]
             random_timestamps = [random_timestamps NaN];
         end
     end
+    all_random_complexities = [all_random_complexities; random_complexities];
+    all_random_timestamps = [all_random_timestamps; random_timestamps];
 end
-all_frontal_time = toc;
-%%
-save('ch2_random_complexities','random_complexities');
-save('ch2_random_timestamps','random_timestamps');
-save('ch2_face_complexities','face_complexities');
-save('ch2_face_timestamps','face_timestamps');
+
+save('occipital_random_complexities','all_random_complexities');
+save('occipital_random_timestamps','all_random_timestamps');
