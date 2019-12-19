@@ -1,0 +1,96 @@
+State number: 0
+0010
+distribution: P(0) = 0.773749	P(1) = 0.226251	
+transitions: T(0) = 10	T(1) = 3	
+P(state): 0.0267109
+
+State number: 1
+0111
+distribution: P(0) = 0.427119	P(1) = 0.572881	
+transitions: T(0) = 5	T(1) = 6	
+P(state): 0.0865192
+
+State number: 2
+0110
+distribution: P(0) = 0.738288	P(1) = 0.261712	
+transitions: T(0) = 7	T(1) = 8	
+P(state): 0.0594809
+
+State number: 3
+0101
+distribution: P(0) = 0.081381	P(1) = 0.918619	
+transitions: T(0) = 9	T(1) = 14	
+P(state): 0.00649014
+
+State number: 4
+0011
+distribution: P(0) = 0.370997	P(1) = 0.629003	
+transitions: T(0) = 2	T(1) = 1	
+P(state): 0.118722
+
+State number: 5
+1110
+distribution: P(0) = 0.86042	P(1) = 0.13958	
+transitions: T(0) = 7	T(1) = 8	
+P(state): 0.0865272
+
+State number: 6
+1111
+distribution: P(0) = 0.56913	P(1) = 0.43087	
+transitions: T(0) = 5	T(1) = 6	
+P(state): 0.0871738
+
+State number: 7
+1100
+distribution: P(0) = 0.633879	P(1) = 0.366121	
+transitions: T(0) = 13	T(1) = 15	
+P(state): 0.118331
+
+State number: 8
+1101
+distribution: P(0) = 0.232241	P(1) = 0.767759	
+transitions: T(0) = 9	T(1) = 14	
+P(state): 0.0276529
+
+State number: 9
+1010
+distribution: P(0) = 0.933875	P(1) = 0.0661253	
+transitions: T(0) = 10	T(1) = 3	
+P(state): 0.00693718
+
+State number: 10
+0100
+distribution: P(0) = 0.444707	P(1) = 0.555293	
+transitions: T(0) = 13	T(1) = 15	
+P(state): 0.027142
+
+State number: 11
+0000
+distribution: P(0) = 0.436016	P(1) = 0.563984	
+transitions: T(0) = 11	T(1) = 12	
+P(state): 0.0886666
+
+State number: 12
+0001
+distribution: P(0) = 0.135113	P(1) = 0.864887	
+transitions: T(0) = 0	T(1) = 4	
+P(state): 0.0869583
+
+State number: 13
+1000
+distribution: P(0) = 0.574989	P(1) = 0.425011	
+transitions: T(0) = 11	T(1) = 12	
+P(state): 0.0871259
+
+State number: 14
+1011
+distribution: P(0) = 0.567393	P(1) = 0.432607	
+transitions: T(0) = 2	T(1) = 1	
+P(state): 0.0271899
+
+State number: 15
+1001
+distribution: P(0) = 0.256238	P(1) = 0.743762	
+transitions: T(0) = 0	T(1) = 4	
+P(state): 0.0583713
+

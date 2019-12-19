@@ -1,0 +1,97 @@
+State number: 0
+010
+0010
+distribution: P(0) = 0.800311	P(1) = 0.199689	
+transitions: T(0) = 11	T(1) = 5	
+P(state): 0.0312673
+
+State number: 1
+0000
+distribution: P(0) = 0.449991	P(1) = 0.550009	
+transitions: T(0) = 1	T(1) = 2	
+P(state): 0.0785317
+
+State number: 2
+0001
+distribution: P(0) = 0.167832	P(1) = 0.832168	
+transitions: T(0) = 0	T(1) = 3	
+P(state): 0.0811036
+
+State number: 3
+0011
+distribution: P(0) = 0.434611	P(1) = 0.565389	
+transitions: T(0) = 4	T(1) = 10	
+P(state): 0.120181
+
+State number: 4
+0110
+distribution: P(0) = 0.75	P(1) = 0.25	
+transitions: T(0) = 6	T(1) = 7	
+P(state): 0.0705196
+
+State number: 5
+0101
+distribution: P(0) = 0.0744879	P(1) = 0.925512	
+transitions: T(0) = 15	T(1) = 13	
+P(state): 0.00725799
+
+State number: 6
+1100
+distribution: P(0) = 0.561912	P(1) = 0.438088	
+transitions: T(0) = 9	T(1) = 14	
+P(state): 0.120558
+
+State number: 7
+1101
+distribution: P(0) = 0.211057	P(1) = 0.788943	
+transitions: T(0) = 15	T(1) = 13	
+P(state): 0.0308364
+
+State number: 8
+1110
+distribution: P(0) = 0.835951	P(1) = 0.164049	
+transitions: T(0) = 6	T(1) = 7	
+P(state): 0.080767
+
+State number: 9
+1000
+distribution: P(0) = 0.531805	P(1) = 0.468195	
+transitions: T(0) = 1	T(1) = 2	
+P(state): 0.0813595
+
+State number: 10
+0111
+distribution: P(0) = 0.474715	P(1) = 0.525285	
+transitions: T(0) = 8	T(1) = 12	
+P(state): 0.0807535
+
+State number: 11
+0100
+distribution: P(0) = 0.438237	P(1) = 0.561763	
+transitions: T(0) = 9	T(1) = 14	
+P(state): 0.0309037
+
+State number: 12
+1111
+distribution: P(0) = 0.545802	P(1) = 0.454198	
+transitions: T(0) = 8	T(1) = 12	
+P(state): 0.0777507
+
+State number: 13
+1011
+distribution: P(0) = 0.586192	P(1) = 0.413808	
+transitions: T(0) = 4	T(1) = 10	
+P(state): 0.0310114
+
+State number: 14
+1001
+distribution: P(0) = 0.249904	P(1) = 0.750096	
+transitions: T(0) = 0	T(1) = 3	
+P(state): 0.0701695
+
+State number: 15
+1010
+distribution: P(0) = 0.905769	P(1) = 0.0942308	
+transitions: T(0) = 11	T(1) = 5	
+P(state): 0.00702907
+

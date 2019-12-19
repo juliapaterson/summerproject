@@ -1,0 +1,96 @@
+State number: 0
+1000
+distribution: P(0) = 0.511621	P(1) = 0.488379	
+transitions: T(0) = 14	T(1) = 11	
+P(state): 0.0842379
+
+State number: 1
+1101
+distribution: P(0) = 0.184463	P(1) = 0.815537	
+transitions: T(0) = 5	T(1) = 4	
+P(state): 0.0259286
+
+State number: 2
+1111
+distribution: P(0) = 0.564461	P(1) = 0.435539	
+transitions: T(0) = 3	T(1) = 2	
+P(state): 0.0682357
+
+State number: 3
+1110
+distribution: P(0) = 0.854819	P(1) = 0.145181	
+transitions: T(0) = 12	T(1) = 1	
+P(state): 0.0785142
+
+State number: 4
+1011
+distribution: P(0) = 0.606042	P(1) = 0.393958	
+transitions: T(0) = 7	T(1) = 10	
+P(state): 0.0263048
+
+State number: 5
+1010
+distribution: P(0) = 0.945783	P(1) = 0.0542169	
+transitions: T(0) = 8	T(1) = 9	
+P(state): 0.00532341
+
+State number: 6
+1001
+distribution: P(0) = 0.242318	P(1) = 0.757682	
+transitions: T(0) = 13	T(1) = 15	
+P(state): 0.0731748
+
+State number: 7
+0110
+distribution: P(0) = 0.803432	P(1) = 0.196568	
+transitions: T(0) = 12	T(1) = 1	
+P(state): 0.0739914
+
+State number: 8
+0100
+distribution: P(0) = 0.459684	P(1) = 0.540316	
+transitions: T(0) = 0	T(1) = 6	
+P(state): 0.0309398
+
+State number: 9
+0101
+distribution: P(0) = 0.0941011	P(1) = 0.905899	
+transitions: T(0) = 5	T(1) = 4	
+P(state): 0.00572366
+
+State number: 10
+0111
+distribution: P(0) = 0.509826	P(1) = 0.490174	
+transitions: T(0) = 3	T(1) = 2	
+P(state): 0.0783862
+
+State number: 11
+0001
+distribution: P(0) = 0.161634	P(1) = 0.838366	
+transitions: T(0) = 13	T(1) = 15	
+P(state): 0.0842699
+
+State number: 12
+1100
+distribution: P(0) = 0.553749	P(1) = 0.446251	
+transitions: T(0) = 0	T(1) = 6	
+P(state): 0.126505
+
+State number: 13
+0010
+distribution: P(0) = 0.82641	P(1) = 0.17359	
+transitions: T(0) = 8	T(1) = 9	
+P(state): 0.031324
+
+State number: 14
+0000
+distribution: P(0) = 0.467632	P(1) = 0.532368	
+transitions: T(0) = 14	T(1) = 11	
+P(state): 0.0809718
+
+State number: 15
+0011
+distribution: P(0) = 0.46051	P(1) = 0.53949	
+transitions: T(0) = 7	T(1) = 10	
+P(state): 0.126169
+

@@ -1,0 +1,100 @@
+State number: 0
+0010
+distribution: P(0) = 0.86606	P(1) = 0.13394	
+transitions: T(0) = 13	T(1) = 15	
+P(state): 0.0317838
+
+State number: 1
+101
+1101
+distribution: P(0) = 0.207439	P(1) = 0.792561	
+transitions: T(0) = 7	T(1) = 11	
+P(state): 0.0222311
+
+State number: 2
+100
+1100
+distribution: P(0) = 0.569339	P(1) = 0.430661	
+transitions: T(0) = 6	T(1) = 5	
+P(state): 0.128199
+
+State number: 3
+111
+1111
+distribution: P(0) = 0.591456	P(1) = 0.408544	
+transitions: T(0) = 14	T(1) = 3	
+P(state): 0.0534394
+
+State number: 4
+011
+0011
+distribution: P(0) = 0.493255	P(1) = 0.506745	
+transitions: T(0) = 9	T(1) = 10	
+P(state): 0.128958
+
+State number: 5
+1001
+distribution: P(0) = 0.254598	P(1) = 0.745402	
+transitions: T(0) = 0	T(1) = 4	
+P(state): 0.069755
+
+State number: 6
+1000
+distribution: P(0) = 0.535926	P(1) = 0.464074	
+transitions: T(0) = 12	T(1) = 8	
+P(state): 0.0904752
+
+State number: 7
+1010
+distribution: P(0) = 0.945701	P(1) = 0.0542986	
+transitions: T(0) = 13	T(1) = 15	
+P(state): 0.00532395
+
+State number: 8
+0001
+distribution: P(0) = 0.155359	P(1) = 0.844641	
+transitions: T(0) = 0	T(1) = 4	
+P(state): 0.0904752
+
+State number: 9
+0110
+distribution: P(0) = 0.82745	P(1) = 0.17255	
+transitions: T(0) = 2	T(1) = 1	
+P(state): 0.0751829
+
+State number: 10
+0111
+distribution: P(0) = 0.567533	P(1) = 0.432467	
+transitions: T(0) = 14	T(1) = 3	
+P(state): 0.0746633
+
+State number: 11
+1011
+distribution: P(0) = 0.612176	P(1) = 0.387824	
+transitions: T(0) = 9	T(1) = 10	
+P(state): 0.0213518
+
+State number: 12
+0000
+distribution: P(0) = 0.4973	P(1) = 0.5027	
+transitions: T(0) = 12	T(1) = 8	
+P(state): 0.0964627
+
+State number: 13
+0100
+distribution: P(0) = 0.523669	P(1) = 0.476331	
+transitions: T(0) = 6	T(1) = 5	
+P(state): 0.0324953
+
+State number: 14
+1110
+distribution: P(0) = 0.876664	P(1) = 0.123336	
+transitions: T(0) = 2	T(1) = 1	
+P(state): 0.0746712
+
+State number: 15
+0101
+distribution: P(0) = 0.116814	P(1) = 0.883186	
+transitions: T(0) = 7	T(1) = 11	
+P(state): 0.00453256
+

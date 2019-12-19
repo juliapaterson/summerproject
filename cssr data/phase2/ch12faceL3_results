@@ -1,0 +1,37 @@
+State number: 0
+00
+000
+distribution: P(0) = 0.471184	P(1) = 0.528816	
+transitions: T(0) = 0	T(1) = 1	
+P(state): 0.142253
+
+State number: 1
+01
+001
+101
+distribution: P(0) = 0.198448	P(1) = 0.801552	
+transitions: T(0) = 3	T(1) = 2	
+P(state): 0.196005
+
+State number: 2
+11
+011
+111
+distribution: P(0) = 0.505398	P(1) = 0.494602	
+transitions: T(0) = 3	T(1) = 2	
+P(state): 0.310686
+
+State number: 3
+10
+010
+110
+distribution: P(0) = 0.794423	P(1) = 0.205577	
+transitions: T(0) = 4	T(1) = 1	
+P(state): 0.195843
+
+State number: 4
+100
+distribution: P(0) = 0.493146	P(1) = 0.506854	
+transitions: T(0) = 0	T(1) = 1	
+P(state): 0.155214
+

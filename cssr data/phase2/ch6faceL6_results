@@ -1,0 +1,186 @@
+State number: 0
+10011
+110011
+010011
+distribution: P(0) = 0.556768	P(1) = 0.443232	
+transitions: T(0) = 7	T(1) = 16	
+P(state): 0.067142
+
+State number: 1
+11110
+01110
+111110
+101110
+001110
+011110
+distribution: P(0) = 0.789735	P(1) = 0.210265	
+transitions: T(0) = 8	T(1) = 3	
+P(state): 0.0730314
+
+State number: 2
+11000
+10000
+00000
+01000
+110000
+111000
+100000
+101000
+000000
+001000
+011000
+010000
+distribution: P(0) = 0.457388	P(1) = 0.542612	
+transitions: T(0) = 2	T(1) = 14	
+P(state): 0.130808
+
+State number: 3
+11101
+01101
+111101
+101101
+001101
+011101
+distribution: P(0) = 0.194113	P(1) = 0.805887	
+transitions: T(0) = 11	T(1) = 6	
+P(state): 0.0378722
+
+State number: 4
+11001
+01001
+111001
+101001
+001001
+011001
+distribution: P(0) = 0.236119	P(1) = 0.763881	
+transitions: T(0) = 5	T(1) = 0	
+P(state): 0.0888047
+
+State number: 5
+10010
+00010
+110010
+100010
+000010
+010010
+distribution: P(0) = 0.800382	P(1) = 0.199618	
+transitions: T(0) = 9	T(1) = 10	
+P(state): 0.0357863
+
+State number: 6
+11011
+01011
+111011
+101011
+001011
+011011
+distribution: P(0) = 0.587734	P(1) = 0.412266	
+transitions: T(0) = 7	T(1) = 16	
+P(state): 0.0377086
+
+State number: 7
+10110
+00110
+110110
+100110
+000110
+010110
+distribution: P(0) = 0.746362	P(1) = 0.253638	
+transitions: T(0) = 9	T(1) = 3	
+P(state): 0.0886274
+
+State number: 8
+11100
+111100
+011100
+distribution: P(0) = 0.490741	P(1) = 0.509259	
+transitions: T(0) = 2	T(1) = 4	
+P(state): 0.0576126
+
+State number: 9
+10100
+00100
+01100
+110100
+100100
+101100
+000100
+001100
+010100
+distribution: P(0) = 0.414987	P(1) = 0.585013	
+transitions: T(0) = 2	T(1) = 4	
+P(state): 0.102015
+
+State number: 10
+10101
+00101
+110101
+100101
+000101
+010101
+distribution: P(0) = 0.109464	P(1) = 0.890536	
+transitions: T(0) = 13	T(1) = 6	
+P(state): 0.00804341
+
+State number: 11
+11010
+111010
+011010
+distribution: P(0) = 0.895522	P(1) = 0.104478	
+transitions: T(0) = 9	T(1) = 10	
+P(state): 0.0073345
+
+State number: 12
+01111
+101111
+001111
+distribution: P(0) = 0.527227	P(1) = 0.472773	
+transitions: T(0) = 1	T(1) = 15	
+P(state): 0.0356228
+
+State number: 13
+01010
+101010
+001010
+distribution: P(0) = 0.84375	P(1) = 0.15625	
+transitions: T(0) = 9	T(1) = 10	
+P(state): 0.000872505
+
+State number: 14
+10001
+00001
+110001
+100001
+000001
+010001
+distribution: P(0) = 0.200019	P(1) = 0.799981	
+transitions: T(0) = 5	T(1) = 17	
+P(state): 0.0710001
+
+State number: 15
+11111
+111111
+011111
+distribution: P(0) = 0.598192	P(1) = 0.401808	
+transitions: T(0) = 1	T(1) = 15	
+P(state): 0.0280292
+
+State number: 16
+10111
+00111
+110111
+100111
+000111
+010111
+distribution: P(0) = 0.512989	P(1) = 0.487011	
+transitions: T(0) = 1	T(1) = 12	
+P(state): 0.0730178
+
+State number: 17
+00011
+100011
+000011
+distribution: P(0) = 0.512786	P(1) = 0.487214	
+transitions: T(0) = 7	T(1) = 16	
+P(state): 0.0566719
+

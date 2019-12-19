@@ -1,0 +1,96 @@
+State number: 0
+1101
+distribution: P(0) = 0.200237	P(1) = 0.799763	
+transitions: T(0) = 5	T(1) = 13	
+P(state): 0.0270973
+
+State number: 1
+1111
+distribution: P(0) = 0.528297	P(1) = 0.471703	
+transitions: T(0) = 2	T(1) = 1	
+P(state): 0.0872959
+
+State number: 2
+1110
+distribution: P(0) = 0.852678	P(1) = 0.147322	
+transitions: T(0) = 3	T(1) = 0	
+P(state): 0.0842699
+
+State number: 3
+1100
+distribution: P(0) = 0.610078	P(1) = 0.389922	
+transitions: T(0) = 12	T(1) = 4	
+P(state): 0.119997
+
+State number: 4
+1001
+distribution: P(0) = 0.24064	P(1) = 0.75936	
+transitions: T(0) = 9	T(1) = 8	
+P(state): 0.0617355
+
+State number: 5
+1010
+distribution: P(0) = 0.949591	P(1) = 0.0504087	
+transitions: T(0) = 15	T(1) = 11	
+P(state): 0.00588377
+
+State number: 6
+0001
+distribution: P(0) = 0.145095	P(1) = 0.854905	
+transitions: T(0) = 9	T(1) = 8	
+P(state): 0.0860391
+
+State number: 7
+0000
+distribution: P(0) = 0.472502	P(1) = 0.527498	
+transitions: T(0) = 7	T(1) = 6	
+P(state): 0.0868316
+
+State number: 8
+0011
+distribution: P(0) = 0.402613	P(1) = 0.597387	
+transitions: T(0) = 10	T(1) = 14	
+P(state): 0.120429
+
+State number: 9
+0010
+distribution: P(0) = 0.80776	P(1) = 0.19224	
+transitions: T(0) = 15	T(1) = 11	
+P(state): 0.0273455
+
+State number: 10
+0110
+distribution: P(0) = 0.766628	P(1) = 0.233372	
+transitions: T(0) = 3	T(1) = 0	
+P(state): 0.0628562
+
+State number: 11
+0101
+distribution: P(0) = 0.0767004	P(1) = 0.9233	
+transitions: T(0) = 5	T(1) = 13	
+P(state): 0.00555556
+
+State number: 12
+1000
+distribution: P(0) = 0.532064	P(1) = 0.467936	
+transitions: T(0) = 7	T(1) = 6	
+P(state): 0.085927
+
+State number: 13
+1011
+distribution: P(0) = 0.53807	P(1) = 0.46193	
+transitions: T(0) = 10	T(1) = 14	
+P(state): 0.0267851
+
+State number: 14
+0111
+distribution: P(0) = 0.452136	P(1) = 0.547864	
+transitions: T(0) = 2	T(1) = 1	
+P(state): 0.08431
+
+State number: 15
+0100
+distribution: P(0) = 0.460087	P(1) = 0.539913	
+transitions: T(0) = 12	T(1) = 4	
+P(state): 0.0276417
+

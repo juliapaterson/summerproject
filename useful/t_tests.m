@@ -1,10 +1,10 @@
 %%
-%paired samples
-[h,p,ci,stats] = ttest(ch24_face.face_complexities, ch24_random.random_complexities);
-%%
-%2 samples
-[h,p,ci,stats] = ttest2(ch24_face.face_complexities, ch24_random.random_complexities);
+%independent samples t test
+[h,p,ci,stats] = ttest2(phase2_frontal_face.all_face_complexities, phase2_frontal_random.all_random_complexities);
 
 %%
-%[h,p,ci,stats] = ttest(face_avg, random_avg);
-[h,p,ci,stats] = ttest2(face_avg, random_avg);
+%paired samples
+[h,p,ci,stats] = ttest(phase1_occipital_face.all_face_complexities, phase2_occipital_face.all_face_complexities);
+
+%%
+[p,tbl,stats] = anova1(phase3_occipital_face.all_face_complexities);

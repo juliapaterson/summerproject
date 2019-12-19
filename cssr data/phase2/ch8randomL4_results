@@ -1,0 +1,96 @@
+State number: 0
+0010
+distribution: P(0) = 0.777904	P(1) = 0.222096	
+transitions: T(0) = 3	T(1) = 4	
+P(state): 0.0354947
+
+State number: 1
+1100
+distribution: P(0) = 0.526194	P(1) = 0.473806	
+transitions: T(0) = 14	T(1) = 10	
+P(state): 0.117771
+
+State number: 2
+0110
+distribution: P(0) = 0.73097	P(1) = 0.26903	
+transitions: T(0) = 1	T(1) = 7	
+P(state): 0.0755363
+
+State number: 3
+0100
+distribution: P(0) = 0.407592	P(1) = 0.592408	
+transitions: T(0) = 14	T(1) = 10	
+P(state): 0.0355748
+
+State number: 4
+0101
+distribution: P(0) = 0.118174	P(1) = 0.881826	
+transitions: T(0) = 12	T(1) = 11	
+P(state): 0.00895773
+
+State number: 5
+0011
+distribution: P(0) = 0.467756	P(1) = 0.532244	
+transitions: T(0) = 2	T(1) = 13	
+P(state): 0.117915
+
+State number: 6
+0001
+distribution: P(0) = 0.189532	P(1) = 0.810468	
+transitions: T(0) = 0	T(1) = 5	
+P(state): 0.076577
+
+State number: 7
+1101
+distribution: P(0) = 0.231199	P(1) = 0.768801	
+transitions: T(0) = 12	T(1) = 11	
+P(state): 0.034406
+
+State number: 8
+1111
+distribution: P(0) = 0.544987	P(1) = 0.455013	
+transitions: T(0) = 9	T(1) = 8	
+P(state): 0.073367
+
+State number: 9
+1110
+distribution: P(0) = 0.816787	P(1) = 0.183213	
+transitions: T(0) = 1	T(1) = 7	
+P(state): 0.0768332
+
+State number: 10
+1001
+distribution: P(0) = 0.273079	P(1) = 0.726921	
+transitions: T(0) = 0	T(1) = 5	
+P(state): 0.0768492
+
+State number: 11
+1011
+distribution: P(0) = 0.592446	P(1) = 0.407554	
+transitions: T(0) = 2	T(1) = 13	
+P(state): 0.034446
+
+State number: 12
+1010
+distribution: P(0) = 0.881778	P(1) = 0.118222	
+transitions: T(0) = 3	T(1) = 4	
+P(state): 0.00902177
+
+State number: 13
+0111
+distribution: P(0) = 0.479607	P(1) = 0.520393	
+transitions: T(0) = 9	T(1) = 8	
+P(state): 0.0767691
+
+State number: 14
+1000
+distribution: P(0) = 0.516637	P(1) = 0.483363	
+transitions: T(0) = 15	T(1) = 6	
+P(state): 0.0764809
+
+State number: 15
+0000
+distribution: P(0) = 0.46551	P(1) = 0.53449	
+transitions: T(0) = 15	T(1) = 6	
+P(state): 0.0739994
+
