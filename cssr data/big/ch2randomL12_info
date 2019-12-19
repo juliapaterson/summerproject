@@ -1,0 +1,13 @@
+Alphabet File: binary01-alphabet.txt
+Data File: ch2randomL12
+History Length: 12
+Significance Level: 0.005
+Multiline Mode: true
+Chi-squared test used: false
+Alphabet Size: 2
+Relative Entropy: 0
+Relative Entropy Rate: 2.42231e-05
+Statistical Complexity: 6.88551
+Entropy Rate: 0.861664
+Variation: 0.996434
+Number of Inferred States: 403
