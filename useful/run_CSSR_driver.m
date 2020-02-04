@@ -1,48 +1,24 @@
-%frontal = {8 9 20 21 22 23 33 34 35};
-%occipital = {1 2 5 6 10 11 12 13 24};
+%frontal = [8,9,20,21,22,23,33,34,35];
+%occipital = [1,2,5,6,10,11,12,13,24];
+%parietal = [3,7,14,15,16,17,18,19,25];
+%lefttemporal = [26,28,30,31,36,38,40,42,44];
+%righttemporal = [4,27,29,31,37,39,41,43,45];
+%%
+%load data for CSSR
+load('cssr_derivative_workspace')
+%%
+%compute CSSR for all channels (k) of interest and all memory lengths (i),
+%and save matrices of complexities and timestamps for future analyses
 
-load("differentiated.mat");
-
-for i = 1:45
-    ch_name = strcat('ch',num2str(i),'face');
-    phase1.(ch_name) = samp11(:,:,i);
-end
-
-for i = 1:45
-    ch_name = strcat('ch',num2str(i),'random');
-    phase1.(ch_name) = samp12(:,:,i);
-end 
-
-for i = 1:45
-    ch_name = strcat('ch',num2str(i),'face');
-    phase2.(ch_name) = samp21(:,:,i);
-end 
-
-for i = 1:45
-    ch_name = strcat('ch',num2str(i),'random');
-    phase2.(ch_name) = samp22(:,:,i);
-end 
-
-for i = 1:45
-    ch_name = strcat('ch',num2str(i),'face');
-    phase3.(ch_name) = samp31(:,:,i);
-end 
-
-for i = 1:45
-    ch_name = strcat('ch',num2str(i),'random');
-    phase3.(ch_name) = samp32(:,:,i);
-end 
-
-%save('cssr_derivative_workspace')
-
+%first compute for face stimuli
 all_face_complexities = [];
 all_face_timestamps = [];
-for k = [1,2,5,6,10,11,12,13,24]
+for k = [4,27,29,31,37,39,41,43,45] %channel list
     face_complexities = [];
     face_timestamps = [];
-    for i = 2:10
+    for i = 2:10 %memory lengths
         input_name = strcat('ch',num2str(k),'face');
-        input = phase1.(input_name);
+        input = phase3.(input_name); %select phase
         output = strcat('ch',num2str(k),'face');
         try
             tic
@@ -57,17 +33,20 @@ for k = [1,2,5,6,10,11,12,13,24]
     all_face_complexities = [all_face_complexities; face_complexities];
     all_face_timestamps = [all_face_timestamps; face_timestamps];
 end
-save('occipital_face_complexities','all_face_complexities');
-save('occipital_face_timestamps','all_face_timestamps');
 
+%save complexities and timestamps
+save('phase3_right_temporal_face_all_complexities','all_face_complexities');
+save('phase3_right_temporal_face_all_timestamps','all_face_timestamps');
+
+%compute for random stimuli
 all_random_complexities = [];
 all_random_timestamps = [];
-for k = [1,2,5,6,10,11,12,13,24]
+for k = [4,27,29,31,37,39,41,43,45]
     random_complexities = [];
     random_timestamps = [];
     for i = 2:10
         input_name = strcat('ch',num2str(k),'random');
-        input = phase1.(input_name);
+        input = phase3.(input_name); %select phase
         output = strcat('ch',num2str(k),'random');
         try
             tic
@@ -83,5 +62,8 @@ for k = [1,2,5,6,10,11,12,13,24]
     all_random_timestamps = [all_random_timestamps; random_timestamps];
 end
 
-save('occipital_random_complexities','all_random_complexities');
-save('occipital_random_timestamps','all_random_timestamps');
+%save complexities and timestamps
+save('phase3_right_temporal_random_all_complexities','all_random_complexities');
+save('phase3_right_temporal_random_all_timestamps','all_random_timestamps');
+
+fprintf('done')

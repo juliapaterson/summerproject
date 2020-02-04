@@ -5,7 +5,7 @@ library(akima)
 library(reshape2)
 library(mgcv)
 
-channels <- read.csv('topoplot.csv')
+channels <- read.csv('test3.csv')
 
 ggplot(channels, aes(x, y, z = complexity)) + stat_summary_2d() + scale_fill_gradientn(colours=matlab.like(20))
 
@@ -13,7 +13,8 @@ datmat <- interp(channels$x, channels$y, channels$complexity,
                  xo = seq(0, 1, length = 1000),
                  yo = seq(0, 1, length = 1000),
                  extrap = TRUE,
-                 linear = FALSE)
+                 linear = FALSE
+                 )
 datmat2 <- melt(datmat$z)
 names(datmat2) <- c('x', 'y', 'value')
 datmat2[,1:2] <- datmat2[,1:2]/1000 # scale it back
@@ -40,7 +41,7 @@ datmat2 <- datmat2[datmat2$incircle,]
 
 ggplot(datmat2, aes(x, y, z = value)) +
   geom_tile(aes(fill = value)) +
-  stat_density_2d(aes(fill = ..level..), geom = 'polygon', binwidth = 0.1) +
+  stat_density2d(aes(fill = ..level..), geom = 'polygon', binwidth = 0.01) +
   geom_contour(colour = 'white', alpha = 0.5) +
   scale_fill_distiller(palette = "Spectral", na.value = NA) + 
   geom_path(data = circledat, aes(x, y, z = NULL)) +
@@ -51,13 +52,3 @@ ggplot(datmat2, aes(x, y, z = value)) +
   geom_point(data = channels, aes(x, y, z = NULL, fill = NULL), 
              shape = 21, colour = 'black', fill = 'white', size = 2) +
   theme_bw()
-
-# pts <- read.csv('topoplot.csv')
-# pts.grid <- interp(as.data.frame(pts)$x, as.data.frame(pts)$y, as.data.frame(pts)$complexity)
-# pts.grid2 <- expand.grid(x=pts.grid$x, y=pts.grid$y)
-# pts.grid2$z <- as.vector(pts.grid$z)
-# (ggplot(as.data.frame(pts), aes(x=x, y=y, z=complexity))
-#   #+ geom_tile(data=na.omit(pts.grid2), aes(x=x, y=y, z=z, fill=z))
-#   + stat_density_2d(data=na.omit(pts.grid2), binwidth=2, colour="red", aes(x=x, y=y, z=z))
-#   + geom_point()
-# )
