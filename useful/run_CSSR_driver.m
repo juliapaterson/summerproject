@@ -5,7 +5,16 @@
 %righttemporal = [4,27,29,31,37,39,41,43,45];
 %%
 %load data for CSSR
+cd '/home/juliapaterson/CSSR/cpp'
 load('cssr_derivative_workspace')
+load('split1_workspace')
+load('split2_workspace')
+load('split3_workspace')
+load('split4_workspace')
+load('split5_workspace')
+load('split6_workspace')
+load('split7_workspace')
+load('n1_workspace')
 %%
 %compute CSSR for all channels (k) of interest and all memory lengths (i),
 %and save matrices of complexities and timestamps for future analyses
@@ -13,13 +22,13 @@ load('cssr_derivative_workspace')
 %first compute for face stimuli
 all_face_complexities = [];
 all_face_timestamps = [];
-for k = [4,27,29,31,37,39,41,43,45] %channel list
+for k = [1:45] %channel list
     face_complexities = [];
     face_timestamps = [];
     for i = 2:10 %memory lengths
         input_name = strcat('ch',num2str(k),'face');
-        input = phase3.(input_name); %select phase
-        output = strcat('ch',num2str(k),'face');
+        input = phase3_split7.(input_name); %select phase/split/input
+        output = strcat('ch',num2str(k),'face_split7');
         try
             tic
                 face_complexities = [face_complexities run_CSSR(input, "binary01-alphabet.txt", i, output, true)];
@@ -35,19 +44,19 @@ for k = [4,27,29,31,37,39,41,43,45] %channel list
 end
 
 %save complexities and timestamps
-save('phase3_right_temporal_face_all_complexities','all_face_complexities');
-save('phase3_right_temporal_face_all_timestamps','all_face_timestamps');
+save('phase3_face_split7_complexities','all_face_complexities');
+save('phase3_face_split7_timestamps','all_face_timestamps');
 
 %compute for random stimuli
 all_random_complexities = [];
 all_random_timestamps = [];
-for k = [4,27,29,31,37,39,41,43,45]
+for k = [1:45]
     random_complexities = [];
     random_timestamps = [];
     for i = 2:10
         input_name = strcat('ch',num2str(k),'random');
-        input = phase3.(input_name); %select phase
-        output = strcat('ch',num2str(k),'random');
+        input = phase3_split7.(input_name); %select phase/split/input
+        output = strcat('ch',num2str(k),'random_split7'); %specify output file namses
         try
             tic
                 random_complexities = [random_complexities run_CSSR(input, "binary01-alphabet.txt", i, output, true)];
@@ -63,7 +72,7 @@ for k = [4,27,29,31,37,39,41,43,45]
 end
 
 %save complexities and timestamps
-save('phase3_right_temporal_random_all_complexities','all_random_complexities');
-save('phase3_right_temporal_random_all_timestamps','all_random_timestamps');
+save('phase3_random_split7_complexities','all_random_complexities');
+save('phase3_random_split7_timestamps ','all_random_timestamps');
 
-fprintf('done')
+fprintf('both split 7 done') %add a print to say what channel its currently at?

@@ -158,7 +158,6 @@ plot(2:10, phase3_right_temporal_diff)
 legend('4','27','29','31','37','39','41','43','45', 'Location','northeast')
 title('phase 3 right temporal complexity difference')
 saveas(17, 'right_temporal_diff.png')
-
 %%
 %topoplots
 cd 'C:\Users\wiwax\github\summerproject\useful'
@@ -171,6 +170,9 @@ face_split1 = load('face_split1.txt');
 face_split2 = load('face_split2.txt');
 face_split3 = load('face_split3.txt');
 face_split4 = load('face_split4.txt');
+face_split5 = load('face_split5.txt');
+face_split6 = load('face_split6.txt');
+face_split7 = load('face_split7.txt');
 
 % random_split1 = load('random_split1.txt');
 % random_split2 = load('random_split2.txt');
@@ -185,7 +187,7 @@ topoplot(sorted_face_comps,'sorted_coords.xyz','maplimits','maxmin');
 title('phase 3 face, ml4')
 cbar('vert');
 saveas(1,'phase3_face_ml4_topoplot.png')
-%%
+
 figure(2),clf;
 topoplot(sorted_random_comps,'sorted_coords.xyz','maplimits','maxmin'); 
 title('phase 3 random, ml4')
@@ -216,6 +218,9 @@ title('phase 3 face split 4 ml4')
 cbar('vert');
 saveas(23, 'phase3_face_split4_ml4_topoplot.png')
 
+%%
+
+%%
 % figure(24),clf;
 % topoplot(random_split1,'sorted_coords.xyz','maplimits','maxmin'); 
 % title('phase 3 random split 1 ml4')
