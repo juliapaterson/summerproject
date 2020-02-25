@@ -1,0 +1,8 @@
+load('cssr_derivative_workspace.mat')
+load('permuted_worskpace.mat')
+
+for i = 1:45
+    ch_name = strcat('ch',num2str(i),'random');
+    phase3_new.(ch_name) = random_permuted(:,:,i);
+end
+    

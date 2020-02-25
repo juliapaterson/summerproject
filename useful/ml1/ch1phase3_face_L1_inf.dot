@@ -1,0 +1,11 @@
+digraph "ch1phase3_face_L1" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 0 [label = "0: 0.6295   "];
+0 -> 1 [label = "1: 0.3705   "];
+1 -> 0 [label = "0: 0.358    "];
+1 -> 1 [label = "1: 0.642    "];
+}

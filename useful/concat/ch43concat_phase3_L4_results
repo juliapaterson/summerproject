@@ -1,0 +1,96 @@
+State number: 0
+1111
+distribution: P(0) = 0.627522	P(1) = 0.372478	
+transitions: T(0) = 6	T(1) = 0	
+P(state): 0.0430518
+
+State number: 1
+1101
+distribution: P(0) = 0.212215	P(1) = 0.787785	
+transitions: T(0) = 3	T(1) = 2	
+P(state): 0.0393243
+
+State number: 2
+1011
+distribution: P(0) = 0.687642	P(1) = 0.312358	
+transitions: T(0) = 8	T(1) = 7	
+P(state): 0.038817
+
+State number: 3
+1010
+distribution: P(0) = 0.881551	P(1) = 0.118449	
+transitions: T(0) = 9	T(1) = 10	
+P(state): 0.00947085
+
+State number: 4
+1001
+distribution: P(0) = 0.253897	P(1) = 0.746103	
+transitions: T(0) = 14	T(1) = 15	
+P(state): 0.104423
+
+State number: 5
+1000
+distribution: P(0) = 0.414604	P(1) = 0.585396	
+transitions: T(0) = 12	T(1) = 11	
+P(state): 0.0665733
+
+State number: 6
+1110
+distribution: P(0) = 0.812643	P(1) = 0.187357	
+transitions: T(0) = 13	T(1) = 1	
+P(state): 0.0651459
+
+State number: 7
+0111
+distribution: P(0) = 0.58532	P(1) = 0.41468	
+transitions: T(0) = 6	T(1) = 0	
+P(state): 0.0652271
+
+State number: 8
+0110
+distribution: P(0) = 0.745106	P(1) = 0.254894	
+transitions: T(0) = 13	T(1) = 1	
+P(state): 0.106304
+
+State number: 9
+0100
+distribution: P(0) = 0.310983	P(1) = 0.689017	
+transitions: T(0) = 5	T(1) = 4	
+P(state): 0.0388575
+
+State number: 10
+0101
+distribution: P(0) = 0.123485	P(1) = 0.876515	
+transitions: T(0) = 3	T(1) = 2	
+P(state): 0.00895672
+
+State number: 11
+0001
+distribution: P(0) = 0.177891	P(1) = 0.822109	
+transitions: T(0) = 14	T(1) = 15	
+P(state): 0.0666545
+
+State number: 12
+0000
+distribution: P(0) = 0.372458	P(1) = 0.627542	
+transitions: T(0) = 12	T(1) = 11	
+P(state): 0.0440462
+
+State number: 13
+1100
+distribution: P(0) = 0.412064	P(1) = 0.587936	
+transitions: T(0) = 5	T(1) = 4	
+P(state): 0.132152
+
+State number: 14
+0010
+distribution: P(0) = 0.795044	P(1) = 0.204956	
+transitions: T(0) = 9	T(1) = 10	
+P(state): 0.0383164
+
+State number: 15
+0011
+distribution: P(0) = 0.599489	P(1) = 0.400511	
+transitions: T(0) = 8	T(1) = 7	
+P(state): 0.13268
+

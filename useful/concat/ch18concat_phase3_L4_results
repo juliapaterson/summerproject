@@ -1,0 +1,96 @@
+State number: 0
+1101
+distribution: P(0) = 0.229593	P(1) = 0.770407	
+transitions: T(0) = 6	T(1) = 14	
+P(state): 0.0301647
+
+State number: 1
+0000
+distribution: P(0) = 0.464621	P(1) = 0.535379	
+transitions: T(0) = 1	T(1) = 7	
+P(state): 0.0895604
+
+State number: 2
+1100
+distribution: P(0) = 0.59347	P(1) = 0.40653	
+transitions: T(0) = 13	T(1) = 5	
+P(state): 0.117391
+
+State number: 3
+1111
+distribution: P(0) = 0.550107	P(1) = 0.449893	
+transitions: T(0) = 4	T(1) = 3	
+P(state): 0.0792372
+
+State number: 4
+1110
+distribution: P(0) = 0.838979	P(1) = 0.161021	
+transitions: T(0) = 2	T(1) = 0	
+P(state): 0.0795484
+
+State number: 5
+1001
+distribution: P(0) = 0.271327	P(1) = 0.728673	
+transitions: T(0) = 9	T(1) = 8	
+P(state): 0.0656533
+
+State number: 6
+1010
+distribution: P(0) = 0.943243	P(1) = 0.0567568	
+transitions: T(0) = 15	T(1) = 11	
+P(state): 0.00754286
+
+State number: 7
+0001
+distribution: P(0) = 0.160395	P(1) = 0.839605	
+transitions: T(0) = 9	T(1) = 8	
+P(state): 0.0831947
+
+State number: 8
+0011
+distribution: P(0) = 0.429429	P(1) = 0.570571	
+transitions: T(0) = 10	T(1) = 12	
+P(state): 0.117547
+
+State number: 9
+0010
+distribution: P(0) = 0.781679	P(1) = 0.218321	
+transitions: T(0) = 15	T(1) = 11	
+P(state): 0.0311117
+
+State number: 10
+0110
+distribution: P(0) = 0.745135	P(1) = 0.254865	
+transitions: T(0) = 2	T(1) = 0	
+P(state): 0.0679466
+
+State number: 11
+0101
+distribution: P(0) = 0.0843486	P(1) = 0.915651	
+transitions: T(0) = 6	T(1) = 14	
+P(state): 0.00723844
+
+State number: 12
+0111
+distribution: P(0) = 0.452249	P(1) = 0.547751	
+transitions: T(0) = 4	T(1) = 3	
+P(state): 0.0794401
+
+State number: 13
+1000
+distribution: P(0) = 0.576145	P(1) = 0.423855	
+transitions: T(0) = 1	T(1) = 7	
+P(state): 0.0831744
+
+State number: 14
+1011
+distribution: P(0) = 0.585471	P(1) = 0.414529	
+transitions: T(0) = 10	T(1) = 12	
+P(state): 0.0298535
+
+State number: 15
+0100
+distribution: P(0) = 0.427768	P(1) = 0.572232	
+transitions: T(0) = 13	T(1) = 5	
+P(state): 0.0313959
+

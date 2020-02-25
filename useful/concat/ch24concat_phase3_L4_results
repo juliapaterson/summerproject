@@ -1,0 +1,96 @@
+State number: 0
+0000
+distribution: P(0) = 0.445767	P(1) = 0.554233	
+transitions: T(0) = 0	T(1) = 1	
+P(state): 0.0911028
+
+State number: 1
+0001
+distribution: P(0) = 0.134642	P(1) = 0.865358	
+transitions: T(0) = 3	T(1) = 2	
+P(state): 0.0867733
+
+State number: 2
+0011
+distribution: P(0) = 0.365134	P(1) = 0.634866	
+transitions: T(0) = 4	T(1) = 12	
+P(state): 0.117337
+
+State number: 3
+0010
+distribution: P(0) = 0.770973	P(1) = 0.229027	
+transitions: T(0) = 13	T(1) = 5	
+P(state): 0.0272422
+
+State number: 4
+0110
+distribution: P(0) = 0.734484	P(1) = 0.265516	
+transitions: T(0) = 6	T(1) = 7	
+P(state): 0.0581375
+
+State number: 5
+0101
+distribution: P(0) = 0.0643514	P(1) = 0.935649	
+transitions: T(0) = 11	T(1) = 15	
+P(state): 0.00663636
+
+State number: 6
+1100
+distribution: P(0) = 0.635989	P(1) = 0.364011	
+transitions: T(0) = 10	T(1) = 14	
+P(state): 0.116843
+
+State number: 7
+1101
+distribution: P(0) = 0.239433	P(1) = 0.760567	
+transitions: T(0) = 11	T(1) = 15	
+P(state): 0.0273166
+
+State number: 8
+1111
+distribution: P(0) = 0.544323	P(1) = 0.455677	
+transitions: T(0) = 9	T(1) = 8	
+P(state): 0.0905007
+
+State number: 9
+1110
+distribution: P(0) = 0.86131	P(1) = 0.13869	
+transitions: T(0) = 6	T(1) = 7	
+P(state): 0.0860562
+
+State number: 10
+1000
+distribution: P(0) = 0.581394	P(1) = 0.418606	
+transitions: T(0) = 0	T(1) = 1	
+P(state): 0.0865095
+
+State number: 11
+1010
+distribution: P(0) = 0.944444	P(1) = 0.0555556	
+transitions: T(0) = 13	T(1) = 5	
+P(state): 0.0069746
+
+State number: 12
+0111
+distribution: P(0) = 0.427063	P(1) = 0.572937	
+transitions: T(0) = 9	T(1) = 8	
+P(state): 0.0861171
+
+State number: 13
+0100
+distribution: P(0) = 0.441929	P(1) = 0.558071	
+transitions: T(0) = 10	T(1) = 14	
+P(state): 0.0275737
+
+State number: 14
+1001
+distribution: P(0) = 0.268135	P(1) = 0.731865	
+transitions: T(0) = 3	T(1) = 2	
+P(state): 0.0579075
+
+State number: 15
+1011
+distribution: P(0) = 0.566759	P(1) = 0.433241	
+transitions: T(0) = 4	T(1) = 12	
+P(state): 0.0269716
+

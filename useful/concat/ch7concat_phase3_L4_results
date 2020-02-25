@@ -1,0 +1,96 @@
+State number: 0
+1111
+distribution: P(0) = 0.463422	P(1) = 0.536578	
+transitions: T(0) = 3	T(1) = 0	
+P(state): 0.0957841
+
+State number: 1
+1100
+distribution: P(0) = 0.564088	P(1) = 0.435912	
+transitions: T(0) = 5	T(1) = 4	
+P(state): 0.110166
+
+State number: 2
+1101
+distribution: P(0) = 0.185116	P(1) = 0.814884	
+transitions: T(0) = 6	T(1) = 7	
+P(state): 0.0327556
+
+State number: 3
+1110
+distribution: P(0) = 0.798635	P(1) = 0.201365	
+transitions: T(0) = 1	T(1) = 2	
+P(state): 0.0776001
+
+State number: 4
+1001
+distribution: P(0) = 0.256426	P(1) = 0.743574	
+transitions: T(0) = 14	T(1) = 13	
+P(state): 0.0646791
+
+State number: 5
+1000
+distribution: P(0) = 0.569028	P(1) = 0.430972	
+transitions: T(0) = 15	T(1) = 8	
+P(state): 0.0782901
+
+State number: 6
+1010
+distribution: P(0) = 0.87751	P(1) = 0.12249	
+transitions: T(0) = 11	T(1) = 12	
+P(state): 0.00675136
+
+State number: 7
+1011
+distribution: P(0) = 0.51328	P(1) = 0.48672	
+transitions: T(0) = 10	T(1) = 9	
+P(state): 0.0329518
+
+State number: 8
+0001
+distribution: P(0) = 0.208802	P(1) = 0.791198	
+transitions: T(0) = 14	T(1) = 13	
+P(state): 0.0784728
+
+State number: 9
+0111
+distribution: P(0) = 0.4278	P(1) = 0.5722	
+transitions: T(0) = 3	T(1) = 0	
+P(state): 0.0778842
+
+State number: 10
+0110
+distribution: P(0) = 0.737443	P(1) = 0.262557	
+transitions: T(0) = 1	T(1) = 2	
+P(state): 0.0653286
+
+State number: 11
+0100
+distribution: P(0) = 0.492218	P(1) = 0.507782	
+transitions: T(0) = 5	T(1) = 4	
+P(state): 0.0326541
+
+State number: 12
+0101
+distribution: P(0) = 0.100193	P(1) = 0.899807	
+transitions: T(0) = 6	T(1) = 7	
+P(state): 0.00706255
+
+State number: 13
+0011
+distribution: P(0) = 0.439089	P(1) = 0.560911	
+transitions: T(0) = 10	T(1) = 9	
+P(state): 0.110153
+
+State number: 14
+0010
+distribution: P(0) = 0.810611	P(1) = 0.189389	
+transitions: T(0) = 11	T(1) = 12	
+P(state): 0.0329789
+
+State number: 15
+0000
+distribution: P(0) = 0.537002	P(1) = 0.462998	
+transitions: T(0) = 15	T(1) = 8	
+P(state): 0.0964877
+

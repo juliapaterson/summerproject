@@ -1,0 +1,19 @@
+digraph "ch28concat_phase3_L3" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 2 [label = "0: 0.2154   "];
+0 -> 1 [label = "1: 0.7846   "];
+1 -> 2 [label = "0: 0.5249   "];
+1 -> 4 [label = "1: 0.4751   "];
+2 -> 5 [label = "0: 0.811    "];
+2 -> 0 [label = "1: 0.189    "];
+3 -> 3 [label = "0: 0.4979   "];
+3 -> 0 [label = "1: 0.5021   "];
+4 -> 2 [label = "0: 0.5468   "];
+4 -> 4 [label = "1: 0.4532   "];
+5 -> 3 [label = "0: 0.5261   "];
+5 -> 0 [label = "1: 0.4739   "];
+}
