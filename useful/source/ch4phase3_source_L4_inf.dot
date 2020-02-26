@@ -1,0 +1,17 @@
+digraph "ch4phase3_source_L4" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 1 [label = "0: 0.00896  "];
+0 -> 4 [label = "1: 0.991    "];
+1 -> 1 [label = "0: 0.9848   "];
+1 -> 0 [label = "1: 0.0152   "];
+2 -> 1 [label = "0: 0.03221  "];
+2 -> 3 [label = "1: 0.9678   "];
+3 -> 1 [label = "0: 0.1335   "];
+3 -> 3 [label = "1: 0.8665   "];
+4 -> 1 [label = "0: 0.01738  "];
+4 -> 2 [label = "1: 0.9826   "];
+}
