@@ -6,7 +6,7 @@
 %righttemporal = [4,27,29,31,37,39,41,43,45];
 
 sig = [];
-for k = [8,9,20,21,22,23,33,34,35];
+for k = [1,2,5,6,10,11,12,13,24]
     for i = 2:10
         file_name = strcat('ch',num2str(k),'concat_phase3_L',num2str(i),'_state_series');
         output = strcat(file_name,'_freq_results');
@@ -17,7 +17,7 @@ for k = [8,9,20,21,22,23,33,34,35];
         
         test = readmatrix(file_name);
         
-        split in half
+        %split in half
         face = test(1:213,:);
         random = test(214:426,:);
         
