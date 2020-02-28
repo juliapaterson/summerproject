@@ -1,0 +1,11 @@
+digraph "ch4_random_short_L4" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 0 [label = "0: 0.9805   "];
+0 -> 1 [label = "1: 0.01955  "];
+1 -> 0 [label = "0: 0.02298  "];
+1 -> 1 [label = "1: 0.977    "];
+}

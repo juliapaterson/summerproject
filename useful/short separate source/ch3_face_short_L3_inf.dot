@@ -1,0 +1,11 @@
+digraph "ch3_face_short_L3" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 1 [label = "0: 0.01305  "];
+0 -> 0 [label = "1: 0.9869   "];
+1 -> 1 [label = "0: 0.9796   "];
+1 -> 0 [label = "1: 0.02039  "];
+}
