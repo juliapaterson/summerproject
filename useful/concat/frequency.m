@@ -6,7 +6,7 @@
 %righttemporal = [4,27,29,31,37,39,41,43,45];
 
 sig = [];
-for k = [1,2,5,6,10,11,12,13,24]
+for k = 1:45
     for i = 2:10
         file_name = strcat('ch',num2str(k),'concat_phase3_L',num2str(i),'_state_series');
         output = strcat(file_name,'_freq_results');
@@ -48,7 +48,14 @@ for k = [1,2,5,6,10,11,12,13,24]
         saveas(2,random_plot_title)
         
         [h,p,ci,stats] = ttest2(face_count,random_count);
-        sig(i) = h
+        current_no_sig = strcat('scalp both channel ',num2str(k),' ml ',num2str(i), ' not significant', '\n');
+        current_sig = strcat('scalp both channel ',num2str(k), ' ml ',num2str(i), ' significant!', '\n');
+        if h == 0
+            fprintf(current_no_sig);
+        else
+            fprintf(current_sig);
+        end
+        sig(i) = h;
         
         save(strcat(output,'_workspace'));
     end
