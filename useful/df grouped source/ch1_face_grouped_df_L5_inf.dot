@@ -1,0 +1,11 @@
+digraph "ch1_face_grouped_df_L5" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 1 [label = "0: 0.02482  "];
+0 -> 0 [label = "1: 0.9752   "];
+1 -> 1 [label = "0: 0.9778   "];
+1 -> 0 [label = "1: 0.02223  "];
+}

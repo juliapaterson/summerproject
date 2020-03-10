@@ -1,0 +1,13 @@
+digraph "ch1_both_grouped_df_L2" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 0 [label = "0: 0.9671   "];
+0 -> 1 [label = "1: 0.03291  "];
+1 -> 0 [label = "0: 0.01907  "];
+1 -> 2 [label = "1: 0.9809   "];
+2 -> 0 [label = "0: 0.1083   "];
+2 -> 2 [label = "1: 0.8917   "];
+}

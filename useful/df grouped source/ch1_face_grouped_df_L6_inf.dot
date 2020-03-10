@@ -1,0 +1,21 @@
+digraph "ch1_face_grouped_df_L6" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 1 [label = "0: 0.0291   "];
+0 -> 0 [label = "1: 0.9709   "];
+1 -> 6 [label = "0: 0.9911   "];
+1 -> 0 [label = "1: 0.008931  "];
+2 -> 2 [label = "0: 0.8511   "];
+2 -> 0 [label = "1: 0.1489   "];
+3 -> 2 [label = "0: 0.9099   "];
+3 -> 0 [label = "1: 0.09008  "];
+4 -> 3 [label = "0: 0.9515   "];
+4 -> 0 [label = "1: 0.0485   "];
+5 -> 4 [label = "0: 0.9607   "];
+5 -> 0 [label = "1: 0.03929  "];
+6 -> 5 [label = "0: 0.9795   "];
+6 -> 0 [label = "1: 0.02047  "];
+}
