@@ -2,7 +2,7 @@
 
 sig = [];
 for k = 1:4
-    for i = 1:17
+    for i = 1:14
         file_name = strcat('ch',num2str(k),'_both_grouped_df_L',num2str(i),'_state_series');
         output = strcat(file_name,'_freq_results');
         face_title = strcat('ch',num2str(k),' source frequency of causal states, face, ml ',num2str(i));

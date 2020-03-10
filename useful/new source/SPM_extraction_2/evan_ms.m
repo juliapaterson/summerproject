@@ -10,6 +10,7 @@
 % ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 %%
 close all;clc;
+load('grouped_source.mat')
 %% Median Subtraction 
 bip_31 = source_3g_raw_p3(1:66,:,:);
 bip_32 = source_3g_raw_p3(67:132,:,:);
@@ -55,6 +56,6 @@ end
 
 %Julia - save to file
 
-evan_grouped_ms = [samp31 ; samp32];
+evan_grouped_ms = [samp31; samp32];
 %Julia - save to file
-save('grouped_evan_ms','samp31','samp32') %mat
+save('grouped_evan_ms','samp31','samp32','evan_grouped_ms') %mat

@@ -9,6 +9,7 @@
 % ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 %%
 close all;clc;
+load('grouped_source.mat')
 %%
 % Phase 3 Face
 % Differentiating, subtracting value at t+delta from t
@@ -66,8 +67,8 @@ end
 %% Clear unneeded Variable from Workspace
 clear g; clear h; clear i; clear j; clear k; clear l;
 
-evan_grouped_diff = [samp31 ; samp32];
+evan_grouped_diff = [samp31; samp32];
 %Julia - save to file
-save('grouped_evan_diff','samp31','samp32') %mat
+save('grouped_evan_diff','samp31','samp32','evan_grouped_diff') %mat
 
 %dlmwrite('differentiated11.txt','samp11',' ') %save channel 11 to txt with space delimiter

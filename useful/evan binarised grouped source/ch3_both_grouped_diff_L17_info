@@ -1,0 +1,13 @@
+Alphabet File: binary01-alphabet.txt
+Data File: ch3_both_grouped_diff_L17
+History Length: 17
+Significance Level: 0.005
+Multiline Mode: true
+Chi-squared test used: false
+Alphabet Size: 2
+Relative Entropy: 0
+Relative Entropy Rate: 9.19532e-05
+Statistical Complexity: 6.08767
+Entropy Rate: 0.425865
+Variation: 0.983239
+Number of Inferred States: 397

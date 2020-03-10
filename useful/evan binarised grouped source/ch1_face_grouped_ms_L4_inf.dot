@@ -1,0 +1,11 @@
+digraph "ch1_face_grouped_ms_L4" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 0 [label = "0: 0.9694   "];
+0 -> 1 [label = "1: 0.03057  "];
+1 -> 0 [label = "0: 0.03801  "];
+1 -> 1 [label = "1: 0.962    "];
+}

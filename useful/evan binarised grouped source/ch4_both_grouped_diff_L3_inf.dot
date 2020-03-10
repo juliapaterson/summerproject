@@ -1,0 +1,11 @@
+digraph "ch4_both_grouped_diff_L3" {
+size = "6,8.5";
+ratio = "fill";
+node [shape = circle];
+node [fontsize = 24];
+edge [fontsize = 24];
+0 -> 1 [label = "0: 0.01446  "];
+0 -> 0 [label = "1: 0.9855   "];
+1 -> 1 [label = "0: 0.9902   "];
+1 -> 0 [label = "1: 0.009754  "];
+}
